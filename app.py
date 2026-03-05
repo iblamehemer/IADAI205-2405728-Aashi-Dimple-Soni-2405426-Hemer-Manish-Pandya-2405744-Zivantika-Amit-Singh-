@@ -500,13 +500,25 @@ def load_logo_images():
         # To:   https://drive.google.com/uc?export=download&id=FILE_ID
         if "file/d/" in gdrive_url:
             file_id = gdrive_url.split("file/d/")[1].split("/")[0]
-            direct_url = f"https://drive.google.com/uc?export=download&id={file_id}"
         else:
-            direct_url = gdrive_url
+            file_id = gdrive_url
 
         with st.spinner("Loading logo dataset..."):
-            resp = requests.get(direct_url, timeout=60)
-            if resp.status_code == 200:
+            # Handle Google Drive large file confirmation
+            session = requests.Session()
+            url = f"https://drive.google.com/uc?export=download&id={file_id}"
+            resp = session.get(url, timeout=60)
+            # Check for virus scan warning page
+            if b"confirm=" in resp.content:
+                import re as _re
+                token = _re.search(r'confirm=([0-9A-Za-z_]+)', resp.text)
+                if token:
+                    url = f"https://drive.google.com/uc?export=download&confirm={token.group(1)}&id={file_id}"
+                    resp = session.get(url, timeout=60)
+                else:
+                    url = f"https://drive.usercontent.google.com/download?id={file_id}&export=download&confirm=t"
+                    resp = session.get(url, timeout=60)
+            if resp.status_code == 200 and len(resp.content) > 10000:
                 data = np.load(BytesIO(resp.content))
                 return data['images'], data['labels']
     except Exception as e:
