@@ -443,102 +443,43 @@ LANG_NAMES = {"Hindi": "हिन्दी", "French": "Français", "Spanish": "
 #  LOGO GENERATOR  (Pillow-based programmatic logo)
 # ─────────────────────────────────────────────────────────────────────────────
 def generate_logo(company: str, industry: str, personality: str, palette: list) -> bytes:
-    """
-    Generate professional logo using multiple AI APIs in priority order:
-    1. Ideogram v2  — best for logos (free tier available)
-    2. Pollinations — free fallback
-    3. Pillow       — offline fallback
-    """
-    import urllib.parse, math, base64
+    """Generate AI logo - let the model decide everything visually."""
+    import urllib.parse, math
     from PIL import ImageFilter
-
-    def h2r(h):
-        h = h.lstrip('#')
-        return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
 
     pcolor = palette[0].lstrip('#') if palette else "1B3A6B"
     scolor = palette[1].lstrip('#') if len(palette) > 1 else "C9A84C"
 
-    STYLE_PROMPTS = {
-        "minimalist": "ultra clean minimalist logo, single geometric icon, perfect negative space, Swiss design, Helvetica era aesthetic, white background, one or two colors only",
-        "vibrant":    "vibrant bold modern logo, dynamic geometric shape, electric colors, Nike energy, Gen-Z streetwear aesthetic, gradient icon mark",
-        "luxury":     "ultra luxury logo emblem, intricate gold monogram, Chanel Rolex Gucci quality, black background, metallic gold silver details, heraldic crest",
-        "bold":       "bold powerful logo, thick geometric mark, Supreme Off-White aesthetic, high contrast, strong angular shapes, street culture brand",
-        "elegant":    "elegant fine line logo, art nouveau curves, Hermès Dior aesthetic, thin strokes, haute couture fashion house quality, refined serif mark",
-    }
-    INDUSTRY_ICONS = {
-        "Tech / Software":      "hexagon circuit, abstract node network, geometric pixel",
-        "Fashion / Apparel":    "abstract crown, geometric figure silhouette, laurel emblem",
-        "Food & Beverage":      "leaf sprig, abstract flame, artisan wheat sheaf",
-        "Healthcare":           "geometric cross, abstract DNA helix, shield with leaf",
-        "Finance":              "abstract diamond, upward arrow, geometric shield crest",
-        "Education":            "open book, torch, abstract owl, geometric star",
-        "Retail / E-commerce":  "abstract infinity loop, geometric star, crown mark",
-        "Real Estate":          "geometric arch, abstract skyline, minimal house mark",
-        "Creative / Design":    "abstract prism, color spectrum triangle, geometric eye",
-        "Manufacturing":        "hexagon gear, abstract bolt, geometric cog mark",
+    PERSONALITY_FEEL = {
+        "minimalist": "minimalist, clean, simple, modern",
+        "vibrant":    "vibrant, energetic, bold, colorful, dynamic",
+        "luxury":     "luxury, premium, sophisticated, high-end, exclusive",
+        "bold":       "bold, powerful, strong, edgy, impactful",
+        "elegant":    "elegant, refined, graceful, timeless, tasteful",
     }
 
-    style    = STYLE_PROMPTS.get(personality, STYLE_PROMPTS["minimalist"])
-    icon     = INDUSTRY_ICONS.get(industry, "abstract geometric icon mark")
-    
+    feel = PERSONALITY_FEEL.get(personality, personality)
+
+    # Let the AI decide EVERYTHING — just give it the brief like a real designer would
     prompt = (
-        f"world class logo design for '{company}', {industry} brand. "
-        f"{style}. "
-        f"Icon concept: {icon}. "
-        f"Brand colors: #{pcolor} and #{scolor}. "
-        f"Vector quality, sharp edges, iconic symbol only, "
-        f"no text, no letters, no words. "
-        f"Behance award winning, Fortune 500 quality logo mark."
+        f"professional logo for {company}, {industry} company, "
+        f"{feel} brand identity, "
+        f"color palette #{pcolor} and #{scolor}, "
+        f"iconic brand mark, vector style, white background, "
+        f"award winning design, no text, no letters"
     )
 
-    # ── METHOD 1: Ideogram AI (best logo quality) ─────────────────────────────
-    ideogram_key = ""
-    try:
-        api_key = st.secrets.get("IDEOGRAM_API_KEY", "")
-        if api_key:
-            ideogram_key = api_key
-    except Exception:
-        pass
+    neg = "text, letters, words, watermark, blurry, low quality, ugly, distorted"
 
-    if ideogram_key:
-        try:
-            import requests as _req
-            resp = _req.post(
-                "https://api.ideogram.ai/generate",
-                headers={
-                    "Api-Key": ideogram_key,
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "image_request": {
-                        "prompt": prompt,
-                        "aspect_ratio": "ASPECT_1_1",
-                        "model": "V_2",
-                        "magic_prompt_option": "ON",
-                        "style_type": "DESIGN",
-                    }
-                },
-                timeout=45
-            )
-            if resp.status_code == 200:
-                data = resp.json()
-                img_url = data["data"][0]["url"]
-                img_resp = _req.get(img_url, timeout=30)
-                if img_resp.status_code == 200:
-                    return img_resp.content
-        except Exception:
-            pass
-
-    # ── METHOD 2: Pollinations with turbo settings ────────────────────────────
+    seeds = [7, 23, 51]
     try:
         import requests as _req
-        seeds = [3, 17, 42]
         for seed in seeds:
             url = (
                 "https://image.pollinations.ai/prompt/"
                 + urllib.parse.quote(prompt)
-                + f"?width=512&height=512&seed={seed}&model=flux&nologo=true&enhance=true"
+                + f"?width=512&height=512&seed={seed}&model=flux&nologo=true&enhance=true&negative="
+                + urllib.parse.quote(neg)
             )
             resp = _req.get(url, timeout=40)
             if resp.status_code == 200 and len(resp.content) > 10000:
@@ -546,65 +487,41 @@ def generate_logo(company: str, industry: str, personality: str, palette: list) 
     except Exception:
         pass
 
-    # ── METHOD 3: Premium Pillow fallback ─────────────────────────────────────
+    # Pillow fallback
+    def h2r(h):
+        h = h.lstrip('#')
+        return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+
     W = H = 512
-    c1 = palette[0] if len(palette) > 0 else "#1B3A6B"
+    c1 = palette[0] if palette else "#1B3A6B"
     c2 = palette[1] if len(palette) > 1 else "#C9A84C"
     c3 = palette[3] if len(palette) > 3 else "#FFFFFF"
-    r1,g1,b1 = h2r(c1); r2,g2,b2 = h2r(c2); r3,g3,b3 = h2r(c3)
-
-    img  = Image.new("RGB", (W, H), (r1,g1,b1))
+    r1,g1,b1=h2r(c1); r2,g2,b2=h2r(c2); r3,g3,b3=h2r(c3)
+    img  = Image.new("RGB",(W,H),(r1,g1,b1))
     draw = ImageDraw.Draw(img)
-    for rad in range(230, 0, -4):
-        a  = (230-rad)/230
-        rc = min(255,int(r1+(255-r1)*a*0.2))
-        gc = min(255,int(g1+(255-g1)*a*0.2))
-        bc = min(255,int(b1+(255-b1)*a*0.2))
-        draw.ellipse([W//2-rad,H//2-rad,W//2+rad,H//2+rad], fill=(rc,gc,bc))
-
-    if personality == "minimalist":
-        draw.rectangle([148,148,312,312], outline=(r2,g2,b2), width=5)
-        draw.rectangle([200,200,364,364], outline=(r2,g2,b2), width=5)
-        draw.line([148,256,364,256], fill=(r2,g2,b2), width=2)
-    elif personality == "vibrant":
-        cx,cy = W//2,H//2
-        for i,ang in enumerate(range(0,360,45)):
-            rad2=math.radians(ang); x2=cx+168*math.cos(rad2); y2=cy+168*math.sin(rad2)
-            cr,cg,cb=h2r(palette[i%len(palette)])
-            draw.line([cx,cy,x2,y2], fill=(cr,cg,cb), width=22)
-        draw.ellipse([cx-58,cy-58,cx+58,cy+58], fill=(r1,g1,b1))
-        draw.ellipse([cx-42,cy-42,cx+42,cy+42], fill=(r2,g2,b2))
-    elif personality == "luxury":
-        pts=[(W//2,118),(392,H//2),(W//2,392),(118,H//2)]
-        draw.polygon(pts, outline=(r2,g2,b2), width=4)
-        draw.polygon([(W//2,172),(338,H//2),(W//2,338),(172,H//2)], outline=(r2,g2,b2), width=2)
-        for px,py in pts: draw.ellipse([px-7,py-7,px+7,py+7], fill=(r2,g2,b2))
-    elif personality == "bold":
-        draw.polygon([(118,118),(292,118),(392,392),(218,392)], fill=(r2,g2,b2))
-        draw.polygon([(242,118),(392,118),(392,242)], fill=(r3,g3,b3))
-        draw.polygon([(118,278),(118,392),(242,392)], fill=(r3,g3,b3))
-    else:
-        cx,cy=W//2,H//2
-        draw.ellipse([cx-118,cy-82,cx+28,cy+82], outline=(r2,g2,b2), width=4)
-        draw.ellipse([cx-28,cy-82,cx+118,cy+82], outline=(r2,g2,b2), width=4)
-        draw.ellipse([cx-40,cy-40,cx+40,cy+40], fill=(r2,g2,b2))
-
+    for rad in range(230,0,-4):
+        a=(230-rad)/230
+        draw.ellipse([W//2-rad,H//2-rad,W//2+rad,H//2+rad],
+                     fill=(min(255,int(r1+(255-r1)*a*0.2)),
+                           min(255,int(g1+(255-g1)*a*0.2)),
+                           min(255,int(b1+(255-b1)*a*0.2))))
     initials = "".join([w[0].upper() for w in company.split()[:2]]) if company else "AI"
     try:
-        fl = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 72)
+        fl = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", 120)
         fs = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf", 19)
     except:
         fl = fs = ImageFont.load_default()
-    bb = draw.textbbox((0,0), initials, font=fl)
+    bb = draw.textbbox((0,0),initials,font=fl)
     tx,ty = W//2-(bb[2]-bb[0])//2, H//2-(bb[3]-bb[1])//2
-    draw.text((tx+3,ty+3), initials, fill=(0,0,0), font=fl)
-    draw.text((tx,ty), initials, fill=(r3,g3,b3), font=fl)
-    name_upper = company.upper()[:18] if company else "BRANDSPHERE"
-    bb2 = draw.textbbox((0,0), name_upper, font=fs)
-    draw.line([W//2-125,408,W//2+125,408], fill=(r2,g2,b2), width=1)
-    draw.text((W//2-(bb2[2]-bb2[0])//2,415), name_upper, fill=(r2,g2,b2), font=fs)
-    img = img.filter(ImageFilter.SMOOTH)
-    buf = io.BytesIO(); img.save(buf, format="PNG"); return buf.getvalue()
+    draw.text((tx+4,ty+4),initials,fill=(0,0,0),font=fl)
+    draw.text((tx,ty),initials,fill=(r3,g3,b3),font=fl)
+    draw.line([W//2-125,408,W//2+125,408],fill=(r2,g2,b2),width=1)
+    name=company.upper()[:18] if company else "BRANDSPHERE"
+    bb2=draw.textbbox((0,0),name,font=fs)
+    draw.text((W//2-(bb2[2]-bb2[0])//2,415),name,fill=(r2,g2,b2),font=fs)
+    img=img.filter(ImageFilter.SMOOTH)
+    buf=io.BytesIO(); img.save(buf,format="PNG"); return buf.getvalue()
+
 
 
 # ─────────────────────────────────────────────────────────────────────────────
