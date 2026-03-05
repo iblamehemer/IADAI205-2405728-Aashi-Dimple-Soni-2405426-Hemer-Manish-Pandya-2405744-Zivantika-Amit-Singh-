@@ -442,52 +442,129 @@ LANG_NAMES = {"Hindi": "हिन्दी", "French": "Français", "Spanish": "
 # ─────────────────────────────────────────────────────────────────────────────
 #  LOGO GENERATOR  (Pillow-based programmatic logo)
 # ─────────────────────────────────────────────────────────────────────────────
-def generate_logo(company: str, industry: str, personality: str, palette: list) -> bytes:
-    """Generate AI logo - let the model decide everything visually."""
-    import urllib.parse, math
-    from PIL import ImageFilter
+# ═══════════════════════════════════════════════════════════════════
+# INSTRUCTIONS: In your app.py on GitHub
+# 1. Find:   def generate_logo(company, industry, personality, palette)
+# 2. DELETE the entire function
+# 3. PASTE this entire block in its place
+# 4. Also add this import at the very top of app.py with other imports:
+#    import pickle
+# ═══════════════════════════════════════════════════════════════════
 
-    pcolor = palette[0].lstrip('#') if palette else "1B3A6B"
-    scolor = palette[1].lstrip('#') if len(palette) > 1 else "C9A84C"
+# ── Logo retrieval cache (loads once, reused across all calls) ────
+@st.cache_resource
+def load_logo_package():
+    """Load CNN embeddings package. Tries config/ folder first."""
+    import pickle, os
+    paths = [
+        'config/logo_slim_package.pkl',
+        'logo_slim_package.pkl',
+    ]
+    for p in paths:
+        if os.path.exists(p):
+            with open(p, 'rb') as f:
+                return pickle.load(f)
+    return None
 
-    PERSONALITY_FEEL = {
-        "minimalist": "minimalist, clean, simple, modern",
-        "vibrant":    "vibrant, energetic, bold, colorful, dynamic",
-        "luxury":     "luxury, premium, sophisticated, high-end, exclusive",
-        "bold":       "bold, powerful, strong, edgy, impactful",
-        "elegant":    "elegant, refined, graceful, timeless, tasteful",
+
+@st.cache_data
+def load_logo_images():
+    """Load compressed logo images. Tries config/ folder first."""
+    import os
+    paths = [
+        'config/logo_images_compressed.npz',
+        'logo_images_compressed.npz',
+    ]
+    for p in paths:
+        if os.path.exists(p):
+            data = np.load(p)
+            return data['images'], data['labels']
+    return None, None
+
+
+def get_top5_logos(personality: str, industry: str):
+    """
+    Use CNN embeddings to find top 5 most relevant logos from dataset.
+    Returns list of (image_array, class_name, similarity_score).
+    """
+    from sklearn.metrics.pairwise import cosine_similarity as cos_sim
+
+    pkg    = load_logo_package()
+    images, img_labels = load_logo_images()
+
+    if pkg is None or images is None:
+        return None  # fallback to Pillow
+
+    embeddings      = pkg['embeddings']       # (1044, 512)
+    labels          = pkg['labels']           # (1044,)
+    reverse_map     = pkg['reverse_map']
+    selected_classes = pkg['selected_classes']
+
+    # Map personality → query style keywords
+    STYLE_CLASS_HINTS = {
+        "minimalist": ["OMV", "Nintendo", "Selecta"],
+        "vibrant":    ["PacMan", "SpongeBobSquarePants", "DonkeyKong"],
+        "luxury":     ["Nelly", "KungFuPandaCrunchers", "OMV"],
+        "bold":       ["DonkeyKong", "PacMan", "Nintendo"],
+        "elegant":    ["Nelly", "Selecta", "OMV"],
     }
 
-    feel = PERSONALITY_FEEL.get(personality, personality)
+    hints = STYLE_CLASS_HINTS.get(personality, selected_classes[:3])
 
-    # Let the AI decide EVERYTHING — just give it the brief like a real designer would
-    prompt = (
-        f"professional logo for {company}, {industry} company, "
-        f"{feel} brand identity, "
-        f"color palette #{pcolor} and #{scolor}, "
-        f"iconic brand mark, vector style, white background, "
-        f"award winning design, no text, no letters"
-    )
+    # Build query vector = mean of hint class embeddings
+    query_vecs = []
+    for hint in hints:
+        if hint in pkg['label_map']:
+            idx = pkg['label_map'][hint]
+            mask = labels == idx
+            if mask.sum() > 0:
+                query_vecs.append(embeddings[mask].mean(axis=0))
 
-    neg = "text, letters, words, watermark, blurry, low quality, ugly, distorted"
+    if not query_vecs:
+        # fallback: use random class mean
+        query_vecs = [embeddings[:50].mean(axis=0)]
 
-    seeds = [7, 23, 51]
-    try:
-        import requests as _req
-        for seed in seeds:
-            url = (
-                "https://image.pollinations.ai/prompt/"
-                + urllib.parse.quote(prompt)
-                + f"?width=512&height=512&seed={seed}&model=flux&nologo=true&enhance=true&negative="
-                + urllib.parse.quote(neg)
-            )
-            resp = _req.get(url, timeout=40)
-            if resp.status_code == 200 and len(resp.content) > 10000:
-                return resp.content
-    except Exception:
-        pass
+    query = np.array(query_vecs).mean(axis=0, keepdims=True)
 
-    # Pillow fallback
+    # Cosine similarity against all embeddings
+    sims = cos_sim(query, embeddings)[0]
+
+    # Pick top 5 from different classes for variety
+    top_indices  = np.argsort(sims)[::-1]
+    seen_classes = set()
+    results      = []
+
+    for idx in top_indices:
+        cls = reverse_map[int(labels[idx])]
+        if cls not in seen_classes:
+            seen_classes.add(cls)
+            results.append((images[idx], cls, float(sims[idx])))
+        if len(results) == 5:
+            break
+
+    return results
+
+
+def generate_logo(company: str, industry: str, personality: str, palette: list) -> bytes:
+    """
+    Returns best matching logo from CNN dataset as PNG bytes.
+    Falls back to improved Pillow if model files not loaded yet.
+    """
+    import math
+    from PIL import ImageFilter
+
+    results = get_top5_logos(personality, industry)
+
+    if results:
+        # Return the top match as PNG bytes
+        img_array = results[0][0]  # numpy (128,128,3) float32
+        img_uint8 = (img_array * 255).astype(np.uint8)
+        pil_img   = Image.fromarray(img_uint8).resize((512, 512), Image.LANCZOS)
+        buf = io.BytesIO()
+        pil_img.save(buf, format="PNG")
+        return buf.getvalue()
+
+    # ── Pillow fallback (if pkl not uploaded yet) ─────────────────
     def h2r(h):
         h = h.lstrip('#')
         return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
@@ -515,13 +592,12 @@ def generate_logo(company: str, industry: str, personality: str, palette: list) 
     tx,ty = W//2-(bb[2]-bb[0])//2, H//2-(bb[3]-bb[1])//2
     draw.text((tx+4,ty+4),initials,fill=(0,0,0),font=fl)
     draw.text((tx,ty),initials,fill=(r3,g3,b3),font=fl)
-    draw.line([W//2-125,408,W//2+125,408],fill=(r2,g2,b2),width=1)
     name=company.upper()[:18] if company else "BRANDSPHERE"
     bb2=draw.textbbox((0,0),name,font=fs)
+    draw.line([W//2-125,408,W//2+125,408],fill=(r2,g2,b2),width=1)
     draw.text((W//2-(bb2[2]-bb2[0])//2,415),name,fill=(r2,g2,b2),font=fs)
     img=img.filter(ImageFilter.SMOOTH)
     buf=io.BytesIO(); img.save(buf,format="PNG"); return buf.getvalue()
-
 
 
 # ─────────────────────────────────────────────────────────────────────────────
