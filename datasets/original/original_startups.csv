@@ -1,0 +1,26 @@
+company,industry,region,target_audience,personality,tone,description,founded_year,employees,funding_stage
+TechNova,Tech / Software,North America,Millennials 25-35,minimalist,professional,B2B SaaS platform for workflow automation,2016,51-200,Bootstrapped
+FreshBite,Food & Beverage,Europe,Health-conscious Gen Z,vibrant,youthful,Organic meal delivery subscription service,2015,1-10,Pre-seed
+LuxeWear,Fashion / Apparel,Asia Pacific,Affluent professionals 30-50,luxury,formal,Premium sustainable fashion brand,2019,11-50,Seed
+EduSpark,Education,South Asia,Students 15-25,bold,inspirational,AI-powered personalized learning platform,2018,201-500,Bootstrapped
+BuildRight,Manufacturing,Latin America,SME business owners,minimalist,professional,Construction project management software,2018,51-200,Pre-seed
+HealthSync,Healthcare,North America,Patients and caregivers,elegant,formal,Digital health monitoring and telemedicine,2017,51-200,Bootstrapped
+ShopEasy,Retail / E-commerce,Middle East,Online shoppers 20-40,vibrant,bold,AI-powered personal shopping assistant,2016,11-50,Series A
+GreenSpace,Real Estate,Europe,Urban millennials,minimalist,professional,Sustainable urban co-living platform,2023,11-50,Seed
+CreativeLab,Creative / Design,Asia Pacific,Freelance designers,bold,playful,All-in-one creative suite for indie creators,2016,51-200,Series A
+FinEdge,Finance,North America,Young professionals 25-35,elegant,formal,Robo-advisory and personal finance app,2024,1-10,Seed
+CloudBase,Tech / Software,Europe,Enterprise IT teams,minimalist,professional,Cloud infrastructure management platform,2021,1-10,Pre-seed
+StyleAI,Fashion / Apparel,North America,Fashion-forward Gen Z,vibrant,youthful,AI personal stylist and wardrobe manager,2015,201-500,Seed
+NutriPlan,Food & Beverage,Asia Pacific,Fitness enthusiasts,bold,inspirational,Personalized nutrition and meal planning app,2015,1-10,Seed
+MindfulMe,Healthcare,Europe,Adults 25-45,elegant,inspirational,Mental wellness and meditation application,2016,51-200,Pre-seed
+LearnFast,Education,North America,Working professionals,minimalist,professional,Microlearning platform for skill development,2018,51-200,Seed
+PropTech,Real Estate,Middle East,Property investors,luxury,formal,Blockchain-based property investment platform,2018,51-200,Bootstrapped
+AdCraft,Creative / Design,Latin America,Marketing agencies,vibrant,bold,Automated ad creative generation platform,2023,1-10,Series B
+PayFlow,Finance,South Asia,Small business owners,bold,professional,Instant payment and invoicing solution,2024,201-500,Pre-seed
+EcoBox,Retail / E-commerce,Europe,Eco-conscious shoppers,minimalist,youthful,Zero-waste subscription box service,2015,1-10,Series B
+AutoBot,Manufacturing,North America,Industrial enterprises,minimalist,formal,AI-driven factory automation system,2023,201-500,Pre-seed
+MedAI,Healthcare,North America,Healthcare providers,minimalist,formal,Clinical AI decision support platform,2018,1-10,Pre-seed
+GameOn,Creative / Design,Asia Pacific,Gamers 16-30,vibrant,playful,Cloud gaming and esports tournament platform,2023,51-200,Series A
+SolarEdge,Manufacturing,Middle East,Businesses and homeowners,minimalist,professional,Smart solar energy management system,2021,51-200,Series A
+TravelAI,Retail / E-commerce,Europe,Frequent travelers,vibrant,inspirational,AI-powered travel itinerary planner,2018,11-50,Seed
+FintechX,Finance,North America,Fintech startups,bold,professional,API-first banking infrastructure provider,2022,1-10,Series B

@@ -1,0 +1,21 @@
+font_name,font_type,personality,industry,readability,mood,classification,size_recommendation,web_safe
+Helvetica Neue,sans-serif,minimalist,Tech / Software,high,neutral,geometric,24-36px display,True
+Futura,geometric-sans,minimalist,Tech / Software,high,neutral,geometric,18-24px heading,True
+Gill Sans,humanist-sans,minimalist,Healthcare,medium,warm,humanist,14-18px body,True
+Montserrat,geometric-sans,vibrant,Food & Beverage,high,energetic,geometric,18-24px heading,True
+Nunito,rounded-sans,vibrant,Education,medium,friendly,rounded,24-36px display,False
+Raleway,elegant-sans,vibrant,Creative / Design,high,dynamic,elegant,14-18px body,False
+Cormorant Garamond,serif,luxury,Fashion / Apparel,high,refined,classical,18-24px heading,True
+Didot,modern-serif,luxury,Finance,high,authoritative,modern,14-18px body,True
+Playfair Display,transitional-serif,luxury,Real Estate,high,sophisticated,transitional,14-18px body,False
+Oswald,condensed-sans,bold,Manufacturing,high,strong,condensed,18-24px heading,False
+Anton,display-sans,bold,Retail / E-commerce,high,impactful,display,14-18px body,True
+Bebas Neue,display,bold,Creative / Design,high,unapologetic,display,24-36px display,True
+Garamond,old-style-serif,elegant,Finance,medium,classical,classical,14-18px body,True
+Libre Baskerville,transitional-serif,elegant,Healthcare,high,readable,transitional,14-18px body,True
+EB Garamond,humanist-serif,elegant,Education,medium,warm,humanist,18-24px heading,True
+DM Sans,sans-serif,minimalist,Tech / Software,high,clean,geometric,18-24px heading,False
+Space Mono,monospace,minimalist,Tech / Software,high,technical,monospace,18-24px heading,False
+Inter,sans-serif,minimalist,Tech / Software,high,neutral,geometric,14-18px body,False
+Lato,humanist-sans,vibrant,Food & Beverage,high,friendly,humanist,18-24px heading,False
+Poppins,geometric-sans,vibrant,Education,high,modern,geometric,14-18px body,True

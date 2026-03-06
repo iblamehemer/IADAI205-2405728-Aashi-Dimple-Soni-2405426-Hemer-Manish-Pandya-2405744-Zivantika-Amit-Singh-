@@ -1,0 +1,51 @@
+brand,industry,personality,slogan,word_count,char_count
+Nike,Fashion / Apparel,bold,Just Do It,3,10
+Apple,Tech / Software,minimalist,Think Different,2,15
+Coca-Cola,Food & Beverage,vibrant,Open Happiness,2,14
+BMW,Manufacturing,luxury,The Ultimate Driving Machine,4,28
+McDonald's,Food & Beverage,vibrant,I'm Lovin' It,3,13
+L'Oreal,Fashion / Apparel,elegant,Because You Are Worth It,5,24
+Adidas,Fashion / Apparel,bold,Impossible is Nothing,3,21
+Amazon,Retail / E-commerce,bold,Work Hard. Have Fun. Make History.,6,34
+Google,Tech / Software,minimalist,Don't Be Evil,3,13
+Samsung,Tech / Software,bold,Do What You Can't,4,17
+Intel,Tech / Software,minimalist,Intel Inside,2,12
+Microsoft,Tech / Software,minimalist,Be What's Next,3,14
+Tesla,Manufacturing,minimalist,Accelerating the World's Transition,4,35
+Airbnb,Retail / E-commerce,vibrant,Belong Anywhere,2,15
+Uber,Tech / Software,bold,Move the Way You Want,5,21
+Spotify,Tech / Software,vibrant,Music for Everyone,3,18
+Netflix,Retail / E-commerce,bold,See What's Next,3,15
+Zara,Fashion / Apparel,minimalist,Love Your Curves,3,16
+IKEA,Retail / E-commerce,minimalist,The Wonderful Everyday,3,22
+Red Bull,Food & Beverage,bold,Red Bull Gives You Wings,5,24
+Dove,Healthcare,elegant,Real Beauty,2,11
+Lego,Education,vibrant,Play On,2,7
+Rolex,Fashion / Apparel,luxury,A Crown for Every Achievement,5,29
+Chanel,Fashion / Apparel,luxury,To Be Irreplaceable One Must Always Be Different,8,48
+Prada,Fashion / Apparel,luxury,La Femme Prada,3,14
+Gucci,Fashion / Apparel,luxury,Quality is Remembered Long After Price is Forgotten,8,51
+Patagonia,Retail / E-commerce,minimalist,Don't Buy This Jacket,4,21
+Harley Davidson,Manufacturing,bold,American by Birth. Rebel by Choice.,6,35
+GE,Manufacturing,bold,Imagination at Work,3,19
+IBM,Tech / Software,minimalist,Think,1,5
+Visa,Finance,minimalist,Everywhere You Want to Be,5,25
+Mastercard,Finance,vibrant,There Are Some Things Money Can't Buy,7,37
+HSBC,Finance,elegant,The World's Local Bank,4,22
+Goldman Sachs,Finance,luxury,Our Clients' Interests Always Come First,6,40
+Mayo Clinic,Healthcare,minimalist,The Needs of the Patient Come First,7,35
+Johnson & Johnson,Healthcare,elegant,Caring for the World,4,20
+Pfizer,Healthcare,minimalist,Breakthroughs that Change Patients' Lives,5,41
+Harvard,Education,luxury,Veritas,1,7
+Khan Academy,Education,vibrant,A Free World-Class Education for Anyone Anywhere,7,48
+Coursera,Education,bold,Learn Without Limits,3,20
+Shopify,Retail / E-commerce,bold,Make Commerce Better for Everyone,5,33
+Stripe,Finance,minimalist,Payments Infrastructure for the Internet,5,40
+Slack,Tech / Software,vibrant,Make Work Life Simpler,4,22
+Zoom,Tech / Software,minimalist,Make Video Communications Frictionless,4,38
+Dropbox,Tech / Software,minimalist,Simplify Your Life,3,18
+Twitter,Tech / Software,vibrant,What's Happening,2,16
+LinkedIn,Tech / Software,minimalist,Connect to Opportunity,3,22
+Pinterest,Creative / Design,vibrant,The World's Catalog of Ideas,5,28
+Canva,Creative / Design,vibrant,Design for Everyone,3,19
+Figma,Creative / Design,bold,Nothing Great is Made Alone,5,27
