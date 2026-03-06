@@ -1,0 +1,501 @@
+platform,region,objective,personality,budget,duration_days,ctr,roi,engagement_score,impressions,clicks,campaign_id,cost_per_click,platform_enc,region_enc,objective_enc,personality_enc
+Instagram,Africa,Engagement,minimalist,3821.2,11,3.24,197,66,432075,13999,CAMP_0000,0.27,1,0,2,3
+Facebook,Middle East,Engagement,minimalist,3559.25,79,2.32,195,44,469469,10891,CAMP_0001,0.33,0,4,2,3
+Twitter/X,Asia Pacific,Brand Awareness,bold,6236.66,89,3.05,153,60,250570,7642,CAMP_0002,0.82,2,1,0,0
+Instagram,Asia Pacific,Brand Awareness,vibrant,11302.34,75,4.06,135,75,147752,5998,CAMP_0003,1.88,1,1,0,4
+Twitter/X,Latin America,Engagement,elegant,6291.31,35,2.3,182,47,82525,1898,CAMP_0004,3.31,2,3,2,1
+Twitter/X,Middle East,Brand Awareness,minimalist,12985.99,26,1.77,94,54,338962,5999,CAMP_0005,2.16,2,4,0,3
+Instagram,South Asia,Conversion,bold,9147.93,56,3.32,328,84,210078,6974,CAMP_0006,1.31,1,6,1,0
+Twitter/X,Middle East,Conversion,luxury,14580.64,8,2.22,342,52,366664,8139,CAMP_0007,1.79,2,4,1,2
+Twitter/X,North America,Conversion,elegant,11387.73,89,1.99,328,51,188349,3748,CAMP_0008,3.04,2,5,1,1
+Instagram,Asia Pacific,Engagement,vibrant,7078.99,40,3.99,240,76,272451,10870,CAMP_0009,0.65,1,1,2,4
+Instagram,Latin America,Brand Awareness,luxury,12704.21,71,3.28,169,71,329275,10800,CAMP_0010,1.18,1,3,0,2
+Instagram,Europe,Engagement,vibrant,8321.0,74,3.42,268,71,491555,16811,CAMP_0011,0.49,1,2,2,4
+Instagram,Latin America,Engagement,bold,782.41,53,3.76,202,67,470703,17698,CAMP_0012,0.04,1,3,2,0
+Facebook,Europe,Brand Awareness,vibrant,13231.14,17,2.24,159,59,54907,1229,CAMP_0013,10.77,0,2,0,4
+Twitter/X,Middle East,Brand Awareness,elegant,11604.6,23,2.16,120,49,355899,7687,CAMP_0014,1.51,2,4,0,1
+Facebook,Latin America,Brand Awareness,luxury,8151.27,84,1.69,123,59,231846,3918,CAMP_0015,2.08,0,3,0,2
+Instagram,Latin America,Conversion,vibrant,10837.76,58,3.98,337,80,362157,14413,CAMP_0016,0.75,1,3,1,4
+Twitter/X,Asia Pacific,Engagement,elegant,7046.55,38,2.05,207,61,127806,2620,CAMP_0017,2.69,2,1,2,1
+Instagram,Asia Pacific,Brand Awareness,elegant,8531.86,82,3.77,145,63,125457,4729,CAMP_0018,1.8,1,1,0,1
+Instagram,North America,Conversion,minimalist,3819.66,11,2.92,301,68,460696,13452,CAMP_0019,0.28,1,5,1,3
+Facebook,North America,Conversion,vibrant,4537.92,69,1.97,368,51,122321,2409,CAMP_0020,1.88,0,5,1,4
+Twitter/X,Europe,Conversion,elegant,8855.07,38,1.73,342,66,421366,7289,CAMP_0021,1.21,2,2,1,1
+Facebook,South Asia,Engagement,vibrant,1867.72,62,2.13,272,60,195753,4169,CAMP_0022,0.45,0,6,2,4
+Facebook,Middle East,Engagement,minimalist,10263.79,89,1.45,207,55,61599,893,CAMP_0023,11.49,0,4,2,3
+Instagram,Middle East,Conversion,luxury,12108.59,20,3.51,372,56,140367,4926,CAMP_0024,2.46,1,4,1,2
+Instagram,Europe,Conversion,bold,2532.64,30,4.01,358,73,156037,6257,CAMP_0025,0.4,1,2,1,0
+Facebook,Europe,Brand Awareness,bold,12216.32,77,2.11,98,54,61332,1294,CAMP_0026,9.44,0,2,0,0
+Instagram,Africa,Conversion,minimalist,14550.45,37,3.18,324,59,97194,3090,CAMP_0027,4.71,1,0,1,3
+Facebook,Middle East,Engagement,vibrant,13037.43,14,1.84,242,63,96317,1772,CAMP_0028,7.36,0,4,2,4
+Facebook,North America,Engagement,luxury,13934.51,65,2.11,220,56,159552,3366,CAMP_0029,4.14,0,5,2,2
+Facebook,Africa,Conversion,elegant,10097.13,69,1.93,345,46,91158,1759,CAMP_0030,5.74,0,0,1,1
+Instagram,Asia Pacific,Brand Awareness,minimalist,8898.11,76,2.91,106,53,41959,1221,CAMP_0031,7.29,1,1,0,3
+Twitter/X,Asia Pacific,Brand Awareness,minimalist,8970.58,71,2.11,119,52,492023,10381,CAMP_0032,0.86,2,1,0,3
+Twitter/X,Europe,Brand Awareness,elegant,1661.62,30,2.11,98,55,45924,968,CAMP_0033,1.72,2,2,0,1
+Twitter/X,North America,Conversion,vibrant,6354.75,79,2.38,356,65,139087,3310,CAMP_0034,1.92,2,5,1,4
+Twitter/X,Latin America,Brand Awareness,elegant,1688.76,81,2.37,164,59,306341,7260,CAMP_0035,0.23,2,3,0,1
+Twitter/X,Asia Pacific,Engagement,vibrant,10211.03,47,2.62,251,54,135140,3540,CAMP_0036,2.88,2,1,2,4
+Facebook,Middle East,Brand Awareness,luxury,7129.76,16,1.97,133,68,14883,293,CAMP_0037,24.33,0,4,0,2
+Facebook,Latin America,Conversion,minimalist,1562.28,34,1.63,301,45,275229,4486,CAMP_0038,0.35,0,3,1,3
+Facebook,Europe,Engagement,minimalist,13249.42,54,1.24,222,50,159415,1976,CAMP_0039,6.71,0,2,2,3
+Instagram,Middle East,Conversion,luxury,9369.33,90,3.84,323,80,287317,11032,CAMP_0040,0.85,1,4,1,2
+Instagram,Africa,Conversion,luxury,14010.46,20,2.96,353,85,470391,13923,CAMP_0041,1.01,1,0,1,2
+Instagram,Asia Pacific,Brand Awareness,minimalist,11265.04,26,2.64,103,62,152788,4033,CAMP_0042,2.79,1,1,0,3
+Facebook,Latin America,Brand Awareness,luxury,3452.16,88,1.78,101,53,457171,8137,CAMP_0043,0.42,0,3,0,2
+Facebook,Latin America,Engagement,luxury,13627.38,13,1.56,240,47,58390,910,CAMP_0044,14.98,0,3,2,2
+Twitter/X,Middle East,Engagement,minimalist,551.41,23,2.61,184,50,344030,8979,CAMP_0045,0.06,2,4,2,3
+Facebook,Europe,Conversion,bold,8499.37,61,2.4,332,57,304076,7297,CAMP_0046,1.16,0,2,1,0
+Instagram,North America,Brand Awareness,vibrant,8411.06,54,4.36,112,79,315402,13751,CAMP_0047,0.61,1,5,0,4
+Twitter/X,Europe,Engagement,vibrant,1106.52,53,2.62,268,59,481325,12610,CAMP_0048,0.09,2,2,2,4
+Instagram,Asia Pacific,Brand Awareness,vibrant,10170.53,52,3.31,154,80,419005,13869,CAMP_0049,0.73,1,1,0,4
+Twitter/X,South Asia,Engagement,elegant,11367.43,37,2.31,227,54,463302,10702,CAMP_0050,1.06,2,6,2,1
+Instagram,South Asia,Brand Awareness,bold,859.4,49,3.77,144,70,420195,15841,CAMP_0051,0.05,1,6,0,0
+Facebook,South Asia,Conversion,vibrant,4368.68,20,2.91,381,50,210562,6127,CAMP_0052,0.71,0,6,1,4
+Instagram,South Asia,Engagement,vibrant,3393.81,65,4.1,233,83,193321,7926,CAMP_0053,0.43,1,6,2,4
+Facebook,South Asia,Brand Awareness,vibrant,843.13,31,2.62,128,63,218910,5735,CAMP_0054,0.15,0,6,0,4
+Facebook,Asia Pacific,Brand Awareness,luxury,5591.62,72,2.15,148,64,219546,4720,CAMP_0055,1.18,0,1,0,2
+Twitter/X,South Asia,Conversion,luxury,14118.94,21,2.21,326,55,469820,10383,CAMP_0056,1.36,2,6,1,2
+Facebook,Europe,Conversion,luxury,1054.73,83,1.65,339,55,237836,3924,CAMP_0057,0.27,0,2,1,2
+Facebook,Africa,Engagement,bold,9290.03,72,2.18,258,55,70631,1539,CAMP_0058,6.04,0,0,2,0
+Facebook,Latin America,Brand Awareness,luxury,1143.6,62,2.56,127,69,10886,278,CAMP_0059,4.11,0,3,0,2
+Twitter/X,South Asia,Conversion,vibrant,5781.21,15,2.77,355,60,358251,9923,CAMP_0060,0.58,2,6,1,4
+Facebook,Latin America,Engagement,minimalist,10936.44,45,1.9,195,50,275878,5241,CAMP_0061,2.09,0,3,2,3
+Facebook,Africa,Engagement,luxury,6334.81,44,2.17,230,48,300671,6524,CAMP_0062,0.97,0,0,2,2
+Instagram,Europe,Engagement,bold,10321.11,29,3.07,233,80,332707,10214,CAMP_0063,1.01,1,2,2,0
+Twitter/X,Asia Pacific,Engagement,elegant,12589.01,45,2.29,196,59,160425,3673,CAMP_0064,3.43,2,1,2,1
+Instagram,Middle East,Conversion,elegant,9993.23,66,3.51,308,69,241623,8480,CAMP_0065,1.18,1,4,1,1
+Facebook,Africa,Brand Awareness,elegant,7361.2,28,1.91,103,53,355427,6788,CAMP_0066,1.08,0,0,0,1
+Instagram,Asia Pacific,Conversion,elegant,5360.23,37,3.58,347,75,362738,12986,CAMP_0067,0.41,1,1,1,1
+Facebook,Europe,Brand Awareness,vibrant,854.17,38,1.61,125,61,259108,4171,CAMP_0068,0.2,0,2,0,4
+Twitter/X,South Asia,Brand Awareness,bold,6509.39,87,2.62,148,86,311817,8169,CAMP_0069,0.8,2,6,0,0
+Instagram,Africa,Conversion,bold,7668.47,38,3.91,379,80,87369,3416,CAMP_0070,2.24,1,0,1,0
+Twitter/X,Africa,Brand Awareness,minimalist,11787.1,35,2.26,108,57,102215,2310,CAMP_0071,5.1,2,0,0,3
+Twitter/X,Latin America,Engagement,minimalist,8582.38,22,1.69,195,49,249317,4213,CAMP_0072,2.04,2,3,2,3
+Instagram,South Asia,Engagement,elegant,14824.44,83,3.39,267,57,176355,5978,CAMP_0073,2.48,1,6,2,1
+Facebook,Latin America,Conversion,elegant,6687.74,77,2.16,293,48,243787,5265,CAMP_0074,1.27,0,3,1,1
+Instagram,Africa,Engagement,bold,4258.28,38,4.12,243,68,450330,18553,CAMP_0075,0.23,1,0,2,0
+Twitter/X,Asia Pacific,Conversion,bold,9587.85,42,2.13,370,59,240619,5125,CAMP_0076,1.87,2,1,1,0
+Instagram,Africa,Engagement,vibrant,4439.87,47,3.93,253,74,478203,18793,CAMP_0077,0.24,1,0,2,4
+Twitter/X,North America,Brand Awareness,vibrant,3853.29,26,3.38,157,54,380367,12856,CAMP_0078,0.3,2,5,0,4
+Instagram,North America,Engagement,bold,5297.78,66,3.75,228,80,227985,8549,CAMP_0079,0.62,1,5,2,0
+Instagram,Europe,Engagement,bold,13620.16,81,3.36,239,78,374654,12588,CAMP_0080,1.08,1,2,2,0
+Instagram,South Asia,Conversion,bold,7416.21,52,4.03,332,73,166559,6712,CAMP_0081,1.1,1,6,1,0
+Facebook,South Asia,Engagement,elegant,11338.98,76,1.7,207,61,429361,7299,CAMP_0082,1.55,0,6,2,1
+Twitter/X,Europe,Engagement,vibrant,4457.56,69,2.68,227,72,25217,675,CAMP_0083,6.6,2,2,2,4
+Facebook,Asia Pacific,Conversion,bold,11000.63,66,2.92,377,46,492104,14369,CAMP_0084,0.77,0,1,1,0
+Instagram,Latin America,Conversion,minimalist,13650.47,82,2.85,320,58,305903,8718,CAMP_0085,1.57,1,3,1,3
+Twitter/X,North America,Brand Awareness,bold,2467.64,66,2.59,153,58,105278,2726,CAMP_0086,0.91,2,5,0,0
+Instagram,Asia Pacific,Engagement,luxury,3569.07,48,3.5,166,65,186947,6543,CAMP_0087,0.55,1,1,2,2
+Facebook,Asia Pacific,Engagement,luxury,12606.21,67,1.88,206,63,20162,379,CAMP_0088,33.26,0,1,2,2
+Twitter/X,Latin America,Brand Awareness,luxury,3751.22,15,1.74,123,61,419591,7300,CAMP_0089,0.51,2,3,0,2
+Twitter/X,North America,Brand Awareness,vibrant,3390.73,9,3.1,115,73,335758,10408,CAMP_0090,0.33,2,5,0,4
+Instagram,Europe,Brand Awareness,bold,10207.15,79,3.68,118,78,124276,4573,CAMP_0091,2.23,1,2,0,0
+Facebook,Africa,Engagement,luxury,2932.94,84,2.06,219,53,402128,8283,CAMP_0092,0.35,0,0,2,2
+Twitter/X,North America,Brand Awareness,luxury,2067.43,10,2.16,134,64,497004,10735,CAMP_0093,0.19,2,5,0,2
+Facebook,Latin America,Conversion,bold,6251.49,32,2.7,332,68,49844,1345,CAMP_0094,4.65,0,3,1,0
+Twitter/X,Africa,Conversion,vibrant,1977.57,45,1.74,369,70,455798,7930,CAMP_0095,0.25,2,0,1,4
+Twitter/X,Latin America,Brand Awareness,elegant,11848.21,51,2.32,114,57,289311,6712,CAMP_0096,1.77,2,3,0,1
+Facebook,Africa,Engagement,minimalist,7836.43,50,1.51,188,51,16633,251,CAMP_0097,31.22,0,0,2,3
+Facebook,South Asia,Engagement,minimalist,6786.09,53,1.85,186,51,343229,6349,CAMP_0098,1.07,0,6,2,3
+Facebook,Africa,Brand Awareness,bold,3053.99,73,2.19,154,59,351027,7687,CAMP_0099,0.4,0,0,0,0
+Facebook,Latin America,Conversion,bold,7240.67,82,1.74,345,60,150716,2622,CAMP_0100,2.76,0,3,1,0
+Facebook,South Asia,Brand Awareness,minimalist,4544.46,64,1.95,114,46,137854,2688,CAMP_0101,1.69,0,6,0,3
+Facebook,Latin America,Conversion,bold,5377.75,70,2.58,345,58,456144,11768,CAMP_0102,0.46,0,3,1,0
+Facebook,Europe,Engagement,vibrant,5644.96,40,2.08,248,64,188435,3919,CAMP_0103,1.44,0,2,2,4
+Facebook,Latin America,Conversion,luxury,8558.97,73,2.31,357,61,110168,2544,CAMP_0104,3.36,0,3,1,2
+Instagram,Europe,Conversion,bold,7584.38,37,3.69,370,73,372078,13729,CAMP_0105,0.55,1,2,1,0
+Facebook,Africa,Conversion,bold,6998.53,9,2.2,354,56,58786,1293,CAMP_0106,5.41,0,0,1,0
+Facebook,Europe,Engagement,vibrant,4939.99,81,2.4,236,70,203472,4883,CAMP_0107,1.01,0,2,2,4
+Facebook,Latin America,Conversion,luxury,6669.81,77,1.58,317,60,183429,2898,CAMP_0108,2.3,0,3,1,2
+Facebook,Africa,Engagement,luxury,4946.03,36,2.3,243,57,73258,1684,CAMP_0109,2.94,0,0,2,2
+Twitter/X,Europe,Engagement,minimalist,11271.78,30,1.99,182,53,110422,2197,CAMP_0110,5.13,2,2,2,3
+Instagram,Africa,Engagement,luxury,11006.48,74,3.25,251,71,322890,10493,CAMP_0111,1.05,1,0,2,2
+Facebook,North America,Brand Awareness,luxury,3798.51,29,1.65,126,55,168475,2779,CAMP_0112,1.37,0,5,0,2
+Instagram,Africa,Conversion,vibrant,4477.51,13,3.61,356,79,300119,10834,CAMP_0113,0.41,1,0,1,4
+Facebook,Africa,Brand Awareness,bold,1987.52,8,2.17,128,52,310974,6748,CAMP_0114,0.29,0,0,0,0
+Facebook,Middle East,Engagement,bold,5440.24,13,2.16,213,47,142371,3075,CAMP_0115,1.77,0,4,2,0
+Facebook,North America,Brand Awareness,bold,7630.33,80,1.78,134,57,340010,6052,CAMP_0116,1.26,0,5,0,0
+Twitter/X,North America,Brand Awareness,vibrant,12261.56,45,3.11,161,65,54659,1699,CAMP_0117,7.22,2,5,0,4
+Instagram,North America,Conversion,bold,9291.61,86,3.67,336,75,128325,4709,CAMP_0118,1.97,1,5,1,0
+Twitter/X,Middle East,Engagement,bold,4811.62,82,2.3,248,58,234830,5401,CAMP_0119,0.89,2,4,2,0
+Facebook,Latin America,Conversion,minimalist,9339.65,19,1.92,325,45,409893,7869,CAMP_0120,1.19,0,3,1,3
+Instagram,Africa,Brand Awareness,luxury,10076.21,27,3.68,146,69,135758,4995,CAMP_0121,2.02,1,0,0,2
+Instagram,Latin America,Brand Awareness,vibrant,538.8,64,3.93,144,79,371429,14597,CAMP_0122,0.04,1,3,0,4
+Twitter/X,Middle East,Engagement,minimalist,3856.41,43,1.69,200,55,378567,6397,CAMP_0123,0.6,2,4,2,3
+Facebook,North America,Conversion,vibrant,13896.71,87,2.74,391,71,319219,8746,CAMP_0124,1.59,0,5,1,4
+Twitter/X,South Asia,Brand Awareness,bold,2164.26,35,2.11,155,64,349547,7375,CAMP_0125,0.29,2,6,0,0
+Instagram,Asia Pacific,Brand Awareness,minimalist,1364.75,46,3.92,98,57,321974,12621,CAMP_0126,0.11,1,1,0,3
+Twitter/X,South Asia,Conversion,luxury,6867.73,66,2.07,299,57,371065,7681,CAMP_0127,0.89,2,6,1,2
+Facebook,Africa,Engagement,luxury,7756.85,70,1.68,234,55,239511,4023,CAMP_0128,1.93,0,0,2,2
+Instagram,Latin America,Brand Awareness,bold,11150.74,84,4.43,157,71,141264,6257,CAMP_0129,1.78,1,3,0,0
+Instagram,North America,Brand Awareness,elegant,9013.28,9,3.0,136,60,410954,12328,CAMP_0130,0.73,1,5,0,1
+Twitter/X,South Asia,Engagement,elegant,1083.36,29,2.94,244,55,256677,7546,CAMP_0131,0.14,2,6,2,1
+Twitter/X,Africa,Engagement,luxury,3131.59,81,1.62,258,60,238529,3864,CAMP_0132,0.81,2,0,2,2
+Twitter/X,South Asia,Engagement,minimalist,7315.15,59,2.49,168,49,184749,4600,CAMP_0133,1.59,2,6,2,3
+Facebook,Africa,Brand Awareness,vibrant,5282.15,70,2.16,145,55,161109,3479,CAMP_0134,1.52,0,0,0,4
+Twitter/X,Middle East,Conversion,minimalist,7094.98,47,2.24,273,51,142329,3188,CAMP_0135,2.23,2,4,1,3
+Facebook,North America,Engagement,elegant,12461.44,7,1.94,231,55,354803,6883,CAMP_0136,1.81,0,5,2,1
+Twitter/X,Middle East,Engagement,minimalist,3219.95,53,1.55,169,60,336439,5214,CAMP_0137,0.62,2,4,2,3
+Facebook,Africa,Engagement,minimalist,3451.59,77,1.84,185,55,78688,1447,CAMP_0138,2.39,0,0,2,3
+Facebook,Middle East,Conversion,bold,2260.68,87,2.12,380,56,329224,6979,CAMP_0139,0.32,0,4,1,0
+Instagram,Africa,Brand Awareness,luxury,8487.17,77,4.34,167,70,223904,9717,CAMP_0140,0.87,1,0,0,2
+Instagram,Europe,Brand Awareness,bold,14232.38,89,4.07,151,83,446282,18163,CAMP_0141,0.78,1,2,0,0
+Instagram,Middle East,Conversion,luxury,7878.64,41,3.13,355,78,227836,7131,CAMP_0142,1.1,1,4,1,2
+Facebook,Middle East,Brand Awareness,bold,8493.34,56,1.37,114,43,109934,1506,CAMP_0143,5.64,0,4,0,0
+Twitter/X,Latin America,Conversion,vibrant,13028.39,42,2.41,386,75,415104,10004,CAMP_0144,1.3,2,3,1,4
+Facebook,Asia Pacific,Conversion,luxury,12397.97,43,2.01,374,45,390659,7852,CAMP_0145,1.58,0,1,1,2
+Facebook,South Asia,Conversion,elegant,14984.08,69,1.21,324,53,463645,5610,CAMP_0146,2.67,0,6,1,1
+Instagram,Middle East,Conversion,bold,5504.3,77,3.67,315,74,409964,15045,CAMP_0147,0.37,1,4,1,0
+Twitter/X,Middle East,Engagement,luxury,13109.22,37,1.79,244,63,309786,5545,CAMP_0148,2.36,2,4,2,2
+Facebook,Europe,Engagement,minimalist,5113.56,67,1.33,189,39,379742,5050,CAMP_0149,1.01,0,2,2,3
+Facebook,Middle East,Conversion,vibrant,7682.27,11,2.13,391,52,76189,1622,CAMP_0150,4.74,0,4,1,4
+Twitter/X,Latin America,Engagement,minimalist,13175.76,63,2.2,189,47,62277,1370,CAMP_0151,9.62,2,3,2,3
+Twitter/X,Middle East,Brand Awareness,vibrant,6444.69,90,2.48,123,63,90929,2255,CAMP_0152,2.86,2,4,0,4
+Instagram,Middle East,Engagement,luxury,9537.26,57,3.04,270,72,350701,10661,CAMP_0153,0.89,1,4,2,2
+Instagram,South Asia,Engagement,elegant,6010.14,47,3.08,225,68,338623,10429,CAMP_0154,0.58,1,6,2,1
+Twitter/X,South Asia,Engagement,elegant,1020.54,15,2.12,233,62,133087,2821,CAMP_0155,0.36,2,6,2,1
+Twitter/X,Africa,Engagement,vibrant,11328.11,62,2.31,240,64,61612,1423,CAMP_0156,7.96,2,0,2,4
+Twitter/X,Africa,Brand Awareness,bold,2912.29,45,1.49,108,71,483654,7206,CAMP_0157,0.4,2,0,0,0
+Instagram,North America,Engagement,minimalist,4753.83,54,3.7,195,65,235803,8724,CAMP_0158,0.54,1,5,2,3
+Instagram,Europe,Conversion,bold,8705.96,30,3.8,418,81,99120,3766,CAMP_0159,2.31,1,2,1,0
+Instagram,North America,Conversion,bold,9485.8,37,3.63,337,65,270920,9834,CAMP_0160,0.96,1,5,1,0
+Twitter/X,Europe,Brand Awareness,bold,9749.62,65,2.5,123,55,143864,3596,CAMP_0161,2.71,2,2,0,0
+Twitter/X,North America,Engagement,luxury,10325.36,27,2.05,209,71,48724,998,CAMP_0162,10.35,2,5,2,2
+Facebook,Asia Pacific,Conversion,luxury,9764.61,61,2.33,341,62,371923,8665,CAMP_0163,1.13,0,1,1,2
+Facebook,Middle East,Engagement,vibrant,14990.92,68,2.19,235,67,65917,1443,CAMP_0164,10.39,0,4,2,4
+Instagram,Middle East,Conversion,luxury,8834.77,44,3.74,320,70,21502,804,CAMP_0165,10.99,1,4,1,2
+Twitter/X,Middle East,Engagement,minimalist,8705.97,13,1.64,172,58,487425,7993,CAMP_0166,1.09,2,4,2,3
+Twitter/X,Africa,Engagement,luxury,11748.24,36,3.07,203,64,328276,10078,CAMP_0167,1.17,2,0,2,2
+Facebook,Europe,Conversion,vibrant,9502.92,24,1.9,362,54,339382,6448,CAMP_0168,1.47,0,2,1,4
+Instagram,Africa,Conversion,minimalist,4979.53,63,2.69,295,57,27492,739,CAMP_0169,6.74,1,0,1,3
+Twitter/X,Asia Pacific,Conversion,vibrant,1806.93,44,2.63,371,65,181294,4768,CAMP_0170,0.38,2,1,1,4
+Twitter/X,Middle East,Brand Awareness,vibrant,2416.32,76,2.16,132,71,469517,10141,CAMP_0171,0.24,2,4,0,4
+Facebook,Latin America,Conversion,luxury,12541.85,39,2.18,321,53,489224,10665,CAMP_0172,1.18,0,3,1,2
+Facebook,South Asia,Engagement,luxury,12161.37,66,2.28,198,56,49478,1128,CAMP_0173,10.78,0,6,2,2
+Instagram,South Asia,Brand Awareness,bold,14525.41,78,3.41,149,70,201771,6880,CAMP_0174,2.11,1,6,0,0
+Instagram,South Asia,Engagement,minimalist,4334.65,22,2.32,167,62,248438,5763,CAMP_0175,0.75,1,6,2,3
+Facebook,Africa,Conversion,luxury,8976.12,88,2.08,323,57,204759,4258,CAMP_0176,2.11,0,0,1,2
+Instagram,Africa,Brand Awareness,bold,862.86,78,3.02,137,67,181969,5495,CAMP_0177,0.16,1,0,0,0
+Twitter/X,Europe,Conversion,minimalist,9713.36,66,1.73,295,47,486781,8421,CAMP_0178,1.15,2,2,1,3
+Twitter/X,Asia Pacific,Conversion,bold,2191.8,12,2.26,377,60,29509,666,CAMP_0179,3.29,2,1,1,0
+Facebook,Middle East,Brand Awareness,minimalist,3904.6,75,2.04,91,49,81127,1654,CAMP_0180,2.36,0,4,0,3
+Facebook,Middle East,Engagement,elegant,6577.34,26,2.47,171,46,474211,11713,CAMP_0181,0.56,0,4,2,1
+Facebook,Africa,Brand Awareness,bold,9426.96,42,2.3,134,57,27152,624,CAMP_0182,15.11,0,0,0,0
+Twitter/X,Asia Pacific,Brand Awareness,bold,6948.09,37,2.17,140,62,458502,9949,CAMP_0183,0.7,2,1,0,0
+Facebook,North America,Conversion,luxury,8394.75,89,2.45,346,55,198048,4852,CAMP_0184,1.73,0,5,1,2
+Instagram,Middle East,Engagement,vibrant,14539.0,65,3.68,242,75,58063,2136,CAMP_0185,6.81,1,4,2,4
+Twitter/X,Europe,Conversion,elegant,14580.85,13,2.36,317,59,422506,9971,CAMP_0186,1.46,2,2,1,1
+Facebook,Europe,Brand Awareness,elegant,3475.48,77,2.72,143,48,118610,3226,CAMP_0187,1.08,0,2,0,1
+Twitter/X,Europe,Brand Awareness,luxury,11728.34,83,2.79,124,48,11486,320,CAMP_0188,36.65,2,2,0,2
+Facebook,South Asia,Brand Awareness,vibrant,8333.12,29,1.76,107,55,67633,1190,CAMP_0189,7.0,0,6,0,4
+Twitter/X,South Asia,Brand Awareness,vibrant,715.47,37,2.53,178,68,318728,8063,CAMP_0190,0.09,2,6,0,4
+Facebook,North America,Brand Awareness,luxury,1259.79,60,1.89,149,40,285820,5401,CAMP_0191,0.23,0,5,0,2
+Instagram,Africa,Brand Awareness,bold,6999.99,53,3.77,153,66,279084,10521,CAMP_0192,0.67,1,0,0,0
+Twitter/X,North America,Engagement,elegant,3712.47,85,2.66,227,55,32735,870,CAMP_0193,4.27,2,5,2,1
+Twitter/X,South Asia,Conversion,elegant,4873.64,89,2.46,371,59,26331,647,CAMP_0194,7.53,2,6,1,1
+Instagram,Middle East,Engagement,bold,10448.41,69,3.78,232,70,383503,14496,CAMP_0195,0.72,1,4,2,0
+Facebook,North America,Brand Awareness,luxury,9320.31,15,2.31,115,53,76160,1759,CAMP_0196,5.3,0,5,0,2
+Facebook,Latin America,Conversion,elegant,8451.17,48,1.7,335,52,209703,3564,CAMP_0197,2.37,0,3,1,1
+Twitter/X,Latin America,Engagement,bold,7830.49,62,2.83,231,62,61998,1754,CAMP_0198,4.46,2,3,2,0
+Twitter/X,North America,Conversion,elegant,10952.18,34,1.81,317,60,235480,4262,CAMP_0199,2.57,2,5,1,1
+Facebook,Europe,Engagement,luxury,12497.58,58,2.28,213,58,228098,5200,CAMP_0200,2.4,0,2,2,2
+Twitter/X,North America,Engagement,bold,5031.59,39,2.96,250,75,206241,6104,CAMP_0201,0.82,2,5,2,0
+Instagram,Africa,Engagement,minimalist,1822.76,17,2.73,175,51,58879,1607,CAMP_0202,1.13,1,0,2,3
+Facebook,North America,Conversion,luxury,12270.65,78,2.58,354,52,41447,1069,CAMP_0203,11.48,0,5,1,2
+Twitter/X,Latin America,Conversion,luxury,10215.19,59,2.42,318,75,195387,4728,CAMP_0204,2.16,2,3,1,2
+Twitter/X,South Asia,Engagement,minimalist,14541.78,83,2.05,202,57,173813,3563,CAMP_0205,4.08,2,6,2,3
+Facebook,North America,Conversion,elegant,3584.71,68,2.08,330,46,127568,2653,CAMP_0206,1.35,0,5,1,1
+Instagram,Asia Pacific,Conversion,luxury,2165.84,42,3.71,379,80,310993,11537,CAMP_0207,0.19,1,1,1,2
+Instagram,South Asia,Engagement,elegant,14630.93,86,4.0,210,62,331689,13267,CAMP_0208,1.1,1,6,2,1
+Twitter/X,Africa,Conversion,minimalist,9330.43,41,1.94,296,59,25179,488,CAMP_0209,19.12,2,0,1,3
+Instagram,Asia Pacific,Conversion,luxury,13862.29,51,2.84,372,71,13201,374,CAMP_0210,37.06,1,1,1,2
+Instagram,South Asia,Brand Awareness,elegant,10031.5,15,3.19,106,58,84383,2691,CAMP_0211,3.73,1,6,0,1
+Twitter/X,Africa,Brand Awareness,minimalist,11318.62,34,2.32,115,45,207234,4807,CAMP_0212,2.35,2,0,0,3
+Facebook,Middle East,Engagement,vibrant,5865.77,48,1.64,245,68,417285,6843,CAMP_0213,0.86,0,4,2,4
+Twitter/X,Latin America,Brand Awareness,minimalist,2755.91,86,1.89,84,51,36089,682,CAMP_0214,4.04,2,3,0,3
+Twitter/X,North America,Engagement,bold,10098.11,69,2.31,188,63,328282,7583,CAMP_0215,1.33,2,5,2,0
+Facebook,Middle East,Engagement,vibrant,11446.68,21,2.07,266,69,190969,3953,CAMP_0216,2.9,0,4,2,4
+Facebook,North America,Engagement,elegant,7556.17,46,2.34,215,44,33811,791,CAMP_0217,9.55,0,5,2,1
+Instagram,Middle East,Conversion,minimalist,611.46,45,4.07,296,62,120747,4914,CAMP_0218,0.12,1,4,1,3
+Instagram,South Asia,Engagement,luxury,5257.77,7,3.51,235,71,270773,9504,CAMP_0219,0.55,1,6,2,2
+Twitter/X,Middle East,Brand Awareness,vibrant,6013.01,36,2.29,133,66,272281,6235,CAMP_0220,0.96,2,4,0,4
+Twitter/X,South Asia,Conversion,luxury,1545.09,12,2.09,327,61,238704,4988,CAMP_0221,0.31,2,6,1,2
+Instagram,Middle East,Brand Awareness,luxury,8848.51,80,3.42,162,56,222034,7593,CAMP_0222,1.17,1,4,0,2
+Twitter/X,Africa,Engagement,luxury,2170.01,9,2.75,256,48,180272,4957,CAMP_0223,0.44,2,0,2,2
+Instagram,South Asia,Conversion,bold,12564.38,53,3.54,349,66,56205,1989,CAMP_0224,6.32,1,6,1,0
+Facebook,South Asia,Brand Awareness,vibrant,6817.31,58,1.85,122,68,284707,5267,CAMP_0225,1.29,0,6,0,4
+Instagram,Middle East,Engagement,luxury,3712.79,28,3.89,256,76,50044,1946,CAMP_0226,1.91,1,4,2,2
+Twitter/X,Africa,Brand Awareness,elegant,7894.3,51,1.75,116,61,194077,3396,CAMP_0227,2.32,2,0,0,1
+Twitter/X,South Asia,Conversion,vibrant,3925.9,25,2.03,386,65,144201,2927,CAMP_0228,1.34,2,6,1,4
+Instagram,Europe,Conversion,vibrant,11523.12,90,3.69,386,81,49506,1826,CAMP_0229,6.31,1,2,1,4
+Instagram,South Asia,Conversion,bold,7227.32,79,3.54,380,68,408394,14457,CAMP_0230,0.5,1,6,1,0
+Twitter/X,Middle East,Conversion,elegant,9823.38,86,2.45,337,56,179454,4396,CAMP_0231,2.23,2,4,1,1
+Twitter/X,Asia Pacific,Brand Awareness,bold,1490.15,63,2.55,113,69,341027,8696,CAMP_0232,0.17,2,1,0,0
+Facebook,South Asia,Engagement,elegant,1314.5,71,1.82,210,57,48897,889,CAMP_0233,1.48,0,6,2,1
+Facebook,Middle East,Engagement,minimalist,1324.91,43,1.43,171,36,50229,718,CAMP_0234,1.85,0,4,2,3
+Twitter/X,South Asia,Brand Awareness,elegant,9114.16,56,2.45,100,68,252594,6188,CAMP_0235,1.47,2,6,0,1
+Twitter/X,Latin America,Conversion,minimalist,7021.14,80,1.16,328,54,351750,4080,CAMP_0236,1.72,2,3,1,3
+Instagram,Asia Pacific,Conversion,bold,7769.83,14,3.64,346,77,246203,8961,CAMP_0237,0.87,1,1,1,0
+Instagram,South Asia,Engagement,minimalist,7815.96,29,3.02,222,62,30521,921,CAMP_0238,8.49,1,6,2,3
+Instagram,Africa,Engagement,bold,8098.99,85,3.74,234,74,93228,3486,CAMP_0239,2.32,1,0,2,0
+Facebook,Asia Pacific,Engagement,bold,6427.16,50,2.19,207,47,365937,8014,CAMP_0240,0.8,0,1,2,0
+Twitter/X,North America,Conversion,luxury,1455.72,19,2.61,344,59,302533,7896,CAMP_0241,0.18,2,5,1,2
+Twitter/X,Middle East,Engagement,luxury,10994.14,84,2.32,238,57,467850,10854,CAMP_0242,1.01,2,4,2,2
+Instagram,Asia Pacific,Brand Awareness,elegant,10122.38,51,3.05,130,62,172650,5265,CAMP_0243,1.92,1,1,0,1
+Twitter/X,Africa,Conversion,bold,2369.8,17,2.58,322,69,172310,4445,CAMP_0244,0.53,2,0,1,0
+Twitter/X,Middle East,Conversion,luxury,12291.18,74,2.5,346,66,58996,1474,CAMP_0245,8.34,2,4,1,2
+Twitter/X,Africa,Engagement,elegant,5746.51,53,2.87,241,47,171934,4934,CAMP_0246,1.16,2,0,2,1
+Instagram,Europe,Engagement,bold,3284.08,24,3.17,229,75,91235,2892,CAMP_0247,1.14,1,2,2,0
+Instagram,Asia Pacific,Brand Awareness,elegant,11677.68,74,3.57,111,69,29790,1063,CAMP_0248,10.99,1,1,0,1
+Twitter/X,Asia Pacific,Conversion,vibrant,9160.07,26,2.22,360,58,95064,2110,CAMP_0249,4.34,2,1,1,4
+Instagram,South Asia,Conversion,elegant,12231.13,28,2.99,298,62,388107,11604,CAMP_0250,1.05,1,6,1,1
+Facebook,North America,Engagement,luxury,10307.26,37,2.4,212,69,242888,5829,CAMP_0251,1.77,0,5,2,2
+Twitter/X,Asia Pacific,Conversion,bold,3893.04,37,2.61,360,58,172250,4495,CAMP_0252,0.87,2,1,1,0
+Facebook,South Asia,Brand Awareness,luxury,10335.45,80,2.26,120,54,240999,5446,CAMP_0253,1.9,0,6,0,2
+Facebook,South Asia,Engagement,bold,7792.15,60,3.09,240,62,94965,2934,CAMP_0254,2.66,0,6,2,0
+Instagram,South Asia,Conversion,vibrant,13158.53,13,3.56,371,89,346162,12323,CAMP_0255,1.07,1,6,1,4
+Facebook,South Asia,Engagement,elegant,14047.26,73,1.64,257,55,456256,7482,CAMP_0256,1.88,0,6,2,1
+Instagram,Asia Pacific,Brand Awareness,vibrant,4455.47,72,3.62,157,84,87253,3158,CAMP_0257,1.41,1,1,0,4
+Facebook,North America,Brand Awareness,bold,13327.13,10,2.32,107,51,227525,5278,CAMP_0258,2.53,0,5,0,0
+Instagram,Middle East,Conversion,luxury,3918.78,17,3.42,340,75,206562,7064,CAMP_0259,0.55,1,4,1,2
+Instagram,North America,Engagement,minimalist,12668.06,90,3.11,173,64,185788,5778,CAMP_0260,2.19,1,5,2,3
+Instagram,Europe,Brand Awareness,luxury,13802.24,67,3.76,143,78,374942,14097,CAMP_0261,0.98,1,2,0,2
+Instagram,South Asia,Conversion,bold,7004.72,7,4.01,366,74,484930,19445,CAMP_0262,0.36,1,6,1,0
+Instagram,North America,Engagement,vibrant,12606.96,77,3.18,261,79,391280,12442,CAMP_0263,1.01,1,5,2,4
+Twitter/X,Latin America,Engagement,minimalist,11754.5,37,2.1,174,46,167889,3525,CAMP_0264,3.33,2,3,2,3
+Instagram,North America,Brand Awareness,bold,9764.8,86,4.1,137,79,249659,10236,CAMP_0265,0.95,1,5,0,0
+Instagram,North America,Engagement,elegant,8272.78,87,3.37,221,74,280205,9442,CAMP_0266,0.88,1,5,2,1
+Twitter/X,Europe,Conversion,vibrant,4723.44,7,2.31,374,63,332337,7676,CAMP_0267,0.62,2,2,1,4
+Facebook,Europe,Conversion,bold,3216.05,17,1.9,350,57,284456,5404,CAMP_0268,0.6,0,2,1,0
+Facebook,North America,Conversion,elegant,7856.25,71,1.7,351,45,300535,5109,CAMP_0269,1.54,0,5,1,1
+Instagram,Middle East,Engagement,minimalist,9717.23,54,2.97,191,70,142985,4246,CAMP_0270,2.29,1,4,2,3
+Twitter/X,North America,Engagement,minimalist,5499.64,87,2.07,220,43,64349,1332,CAMP_0271,4.13,2,5,2,3
+Twitter/X,Africa,Engagement,vibrant,1142.87,76,2.63,270,66,187496,4931,CAMP_0272,0.23,2,0,2,4
+Twitter/X,Europe,Conversion,bold,14721.88,68,2.84,346,72,341211,9690,CAMP_0273,1.52,2,2,1,0
+Instagram,South Asia,Brand Awareness,minimalist,10882.65,65,3.96,107,59,29390,1163,CAMP_0274,9.36,1,6,0,3
+Facebook,Europe,Brand Awareness,vibrant,13343.96,47,2.74,176,54,499355,13682,CAMP_0275,0.98,0,2,0,4
+Facebook,Latin America,Engagement,elegant,7364.3,11,1.72,215,42,404941,6964,CAMP_0276,1.06,0,3,2,1
+Twitter/X,Europe,Engagement,luxury,13001.01,13,1.94,211,56,463927,9000,CAMP_0277,1.44,2,2,2,2
+Twitter/X,Asia Pacific,Engagement,minimalist,12090.46,62,1.98,204,62,476347,9431,CAMP_0278,1.28,2,1,2,3
+Facebook,Africa,Engagement,bold,5416.03,30,1.67,261,54,270153,4511,CAMP_0279,1.2,0,0,2,0
+Twitter/X,Middle East,Engagement,elegant,4367.45,17,2.19,234,51,391200,8567,CAMP_0280,0.51,2,4,2,1
+Facebook,North America,Engagement,elegant,14928.92,30,2.04,224,53,295985,6038,CAMP_0281,2.47,0,5,2,1
+Facebook,Asia Pacific,Brand Awareness,minimalist,5254.84,44,1.83,163,42,170692,3123,CAMP_0282,1.68,0,1,0,3
+Facebook,Latin America,Conversion,bold,2916.35,63,1.86,344,52,194311,3614,CAMP_0283,0.81,0,3,1,0
+Facebook,North America,Conversion,luxury,9415.35,62,1.73,365,61,153946,2663,CAMP_0284,3.54,0,5,1,2
+Twitter/X,South Asia,Brand Awareness,minimalist,10232.17,58,1.77,97,55,200479,3548,CAMP_0285,2.88,2,6,0,3
+Twitter/X,South Asia,Conversion,vibrant,14315.45,25,2.3,385,67,454947,10463,CAMP_0286,1.37,2,6,1,4
+Twitter/X,Africa,Engagement,minimalist,2330.34,37,1.39,230,63,418166,5812,CAMP_0287,0.4,2,0,2,3
+Twitter/X,Asia Pacific,Engagement,bold,14267.27,11,2.17,234,65,327243,7101,CAMP_0288,2.01,2,1,2,0
+Instagram,Africa,Engagement,luxury,5894.19,16,3.65,244,84,310900,11347,CAMP_0289,0.52,1,0,2,2
+Instagram,Latin America,Engagement,bold,5058.59,42,3.61,226,66,140868,5085,CAMP_0290,0.99,1,3,2,0
+Instagram,North America,Conversion,vibrant,7736.14,56,3.55,371,89,488959,17358,CAMP_0291,0.45,1,5,1,4
+Twitter/X,North America,Engagement,luxury,10708.55,34,2.1,235,60,330799,6946,CAMP_0292,1.54,2,5,2,2
+Facebook,Africa,Engagement,vibrant,2278.24,16,2.64,303,54,247000,6520,CAMP_0293,0.35,0,0,2,4
+Instagram,Africa,Engagement,minimalist,12252.44,47,2.84,220,66,360140,10227,CAMP_0294,1.2,1,0,2,3
+Facebook,Africa,Brand Awareness,elegant,8361.48,45,2.63,138,48,456358,12002,CAMP_0295,0.7,0,0,0,1
+Instagram,Africa,Conversion,vibrant,12008.6,72,4.08,394,83,127567,5204,CAMP_0296,2.31,1,0,1,4
+Instagram,Europe,Brand Awareness,vibrant,11960.41,10,4.04,165,85,199213,8048,CAMP_0297,1.49,1,2,0,4
+Twitter/X,Latin America,Engagement,bold,12153.1,77,2.97,254,62,78037,2317,CAMP_0298,5.25,2,3,2,0
+Twitter/X,North America,Brand Awareness,luxury,6273.32,68,2.37,156,56,285615,6769,CAMP_0299,0.93,2,5,0,2
+Facebook,South Asia,Engagement,elegant,1569.39,47,2.04,213,51,346770,7074,CAMP_0300,0.22,0,6,2,1
+Instagram,Middle East,Engagement,elegant,5495.46,77,3.87,224,69,345436,13368,CAMP_0301,0.41,1,4,2,1
+Twitter/X,Europe,Brand Awareness,bold,7791.52,14,1.87,153,67,445888,8338,CAMP_0302,0.93,2,2,0,0
+Instagram,Latin America,Brand Awareness,luxury,2887.53,48,4.39,126,73,381894,16765,CAMP_0303,0.17,1,3,0,2
+Instagram,Asia Pacific,Conversion,luxury,12766.04,39,3.62,373,71,112918,4087,CAMP_0304,3.12,1,1,1,2
+Twitter/X,Latin America,Engagement,vibrant,9562.82,85,2.63,264,67,289696,7619,CAMP_0305,1.26,2,3,2,4
+Instagram,Latin America,Conversion,vibrant,9081.22,81,3.66,376,84,90842,3324,CAMP_0306,2.73,1,3,1,4
+Instagram,Africa,Conversion,elegant,5395.48,79,2.95,328,64,31597,932,CAMP_0307,5.79,1,0,1,1
+Instagram,North America,Brand Awareness,elegant,4337.51,33,3.84,96,65,412107,15824,CAMP_0308,0.27,1,5,0,1
+Twitter/X,Middle East,Conversion,minimalist,7721.55,87,2.15,326,52,296039,6364,CAMP_0309,1.21,2,4,1,3
+Facebook,Africa,Engagement,bold,4050.73,58,1.85,279,47,165941,3069,CAMP_0310,1.32,0,0,2,0
+Facebook,North America,Conversion,minimalist,2792.17,60,0.83,303,43,263887,2190,CAMP_0311,1.27,0,5,1,3
+Facebook,Europe,Engagement,elegant,2583.2,47,1.48,235,52,394932,5844,CAMP_0312,0.44,0,2,2,1
+Facebook,Middle East,Brand Awareness,luxury,7967.21,20,1.75,106,58,177308,3102,CAMP_0313,2.57,0,4,0,2
+Instagram,Middle East,Brand Awareness,luxury,7019.14,25,3.78,130,83,60757,2296,CAMP_0314,3.06,1,4,0,2
+Instagram,Asia Pacific,Engagement,elegant,6562.95,27,2.93,190,64,436496,12789,CAMP_0315,0.51,1,1,2,1
+Facebook,Latin America,Conversion,luxury,3252.59,27,1.96,346,51,271234,5316,CAMP_0316,0.61,0,3,1,2
+Twitter/X,Middle East,Engagement,luxury,7711.87,18,2.45,206,69,216172,5296,CAMP_0317,1.46,2,4,2,2
+Twitter/X,Middle East,Brand Awareness,vibrant,8958.49,13,2.49,166,68,36497,908,CAMP_0318,9.87,2,4,0,4
+Facebook,Middle East,Conversion,bold,4643.35,8,2.25,368,58,454162,10218,CAMP_0319,0.45,0,4,1,0
+Instagram,Middle East,Brand Awareness,luxury,11048.87,58,3.78,159,73,201856,7630,CAMP_0320,1.45,1,4,0,2
+Instagram,Middle East,Brand Awareness,elegant,8646.34,53,3.64,124,77,300048,10921,CAMP_0321,0.79,1,4,0,1
+Facebook,North America,Engagement,elegant,7030.14,77,1.62,257,50,156654,2537,CAMP_0322,2.77,0,5,2,1
+Twitter/X,Africa,Conversion,minimalist,2365.62,19,1.42,297,48,216518,3074,CAMP_0323,0.77,2,0,1,3
+Facebook,South Asia,Engagement,elegant,14114.75,25,2.23,207,48,114363,2550,CAMP_0324,5.54,0,6,2,1
+Twitter/X,Latin America,Engagement,elegant,1083.7,11,1.45,211,43,81846,1186,CAMP_0325,0.91,2,3,2,1
+Twitter/X,Asia Pacific,Engagement,elegant,7126.33,84,1.57,236,62,478258,7508,CAMP_0326,0.95,2,1,2,1
+Twitter/X,Europe,Engagement,elegant,5118.69,57,2.38,201,57,333223,7930,CAMP_0327,0.65,2,2,2,1
+Twitter/X,South Asia,Engagement,elegant,5377.42,72,2.2,197,67,289099,6360,CAMP_0328,0.85,2,6,2,1
+Facebook,Africa,Conversion,luxury,7385.94,9,2.33,337,53,203125,4732,CAMP_0329,1.56,0,0,1,2
+Facebook,Africa,Brand Awareness,bold,8963.68,87,2.15,97,54,23970,515,CAMP_0330,17.41,0,0,0,0
+Twitter/X,Middle East,Engagement,elegant,8875.7,13,1.93,200,56,315934,6097,CAMP_0331,1.46,2,4,2,1
+Facebook,Europe,Conversion,elegant,11731.79,55,2.61,338,47,87477,2283,CAMP_0332,5.14,0,2,1,1
+Twitter/X,Europe,Brand Awareness,elegant,14248.97,21,2.43,154,63,110025,2673,CAMP_0333,5.33,2,2,0,1
+Instagram,Middle East,Engagement,bold,2695.75,33,3.7,229,79,225155,8330,CAMP_0334,0.32,1,4,2,0
+Twitter/X,South Asia,Conversion,bold,13155.86,14,2.57,374,67,380029,9766,CAMP_0335,1.35,2,6,1,0
+Instagram,Latin America,Brand Awareness,elegant,5213.22,68,3.78,115,76,285501,10791,CAMP_0336,0.48,1,3,0,1
+Facebook,Asia Pacific,Brand Awareness,bold,13725.8,50,2.15,180,51,296404,6372,CAMP_0337,2.15,0,1,0,0
+Facebook,Africa,Conversion,luxury,9346.11,31,2.67,345,49,139247,3717,CAMP_0338,2.51,0,0,1,2
+Facebook,Latin America,Engagement,vibrant,14151.54,45,1.97,246,60,414317,8162,CAMP_0339,1.73,0,3,2,4
+Facebook,Africa,Brand Awareness,bold,5097.09,51,2.28,127,55,303856,6927,CAMP_0340,0.74,0,0,0,0
+Twitter/X,Asia Pacific,Engagement,minimalist,8815.41,76,2.85,234,55,209069,5958,CAMP_0341,1.48,2,1,2,3
+Facebook,South Asia,Engagement,vibrant,4711.56,43,2.18,254,61,384415,8380,CAMP_0342,0.56,0,6,2,4
+Instagram,Asia Pacific,Engagement,luxury,11336.41,34,3.11,226,61,115941,3605,CAMP_0343,3.14,1,1,2,2
+Twitter/X,Asia Pacific,Conversion,luxury,2490.46,85,2.47,354,58,398440,9841,CAMP_0344,0.25,2,1,1,2
+Twitter/X,Europe,Brand Awareness,minimalist,10212.59,74,2.62,89,43,128316,3361,CAMP_0345,3.04,2,2,0,3
+Twitter/X,Europe,Brand Awareness,minimalist,6492.87,67,2.08,135,62,62714,1304,CAMP_0346,4.98,2,2,0,3
+Twitter/X,South Asia,Brand Awareness,minimalist,14485.52,27,1.81,136,52,223336,4042,CAMP_0347,3.58,2,6,0,3
+Twitter/X,Middle East,Engagement,vibrant,11460.71,43,2.45,270,70,178384,4370,CAMP_0348,2.62,2,4,2,4
+Facebook,Africa,Brand Awareness,minimalist,9958.33,36,1.08,144,54,290573,3138,CAMP_0349,3.17,0,0,0,3
+Twitter/X,Africa,Brand Awareness,vibrant,6559.33,29,2.27,152,69,499644,11341,CAMP_0350,0.58,2,0,0,4
+Instagram,South Asia,Engagement,bold,3201.52,44,3.78,230,71,469665,17753,CAMP_0351,0.18,1,6,2,0
+Instagram,North America,Engagement,elegant,9240.35,49,3.35,244,72,159192,5332,CAMP_0352,1.73,1,5,2,1
+Facebook,Africa,Conversion,elegant,7661.73,24,1.74,341,33,456200,7937,CAMP_0353,0.97,0,0,1,1
+Twitter/X,Middle East,Engagement,vibrant,12227.8,49,2.98,217,64,95193,2836,CAMP_0354,4.31,2,4,2,4
+Twitter/X,Middle East,Conversion,luxury,10919.67,8,1.86,315,67,396199,7369,CAMP_0355,1.48,2,4,1,2
+Facebook,South Asia,Engagement,elegant,10278.82,31,1.7,227,50,102009,1734,CAMP_0356,5.93,0,6,2,1
+Twitter/X,South Asia,Conversion,bold,12491.35,72,2.61,358,56,181928,4748,CAMP_0357,2.63,2,6,1,0
+Instagram,Middle East,Conversion,minimalist,3179.33,24,3.44,285,52,260323,8955,CAMP_0358,0.36,1,4,1,3
+Facebook,Europe,Brand Awareness,luxury,6061.83,64,1.81,162,58,405185,7333,CAMP_0359,0.83,0,2,0,2
+Facebook,Asia Pacific,Engagement,elegant,10981.8,8,1.75,214,48,147129,2574,CAMP_0360,4.27,0,1,2,1
+Twitter/X,Asia Pacific,Conversion,vibrant,1400.8,22,3.35,380,69,254001,8509,CAMP_0361,0.16,2,1,1,4
+Facebook,Europe,Engagement,elegant,13885.04,46,2.3,225,49,371910,8553,CAMP_0362,1.62,0,2,2,1
+Instagram,Africa,Engagement,luxury,9412.07,35,3.44,230,71,80028,2752,CAMP_0363,3.42,1,0,2,2
+Facebook,Europe,Engagement,elegant,5917.56,77,2.18,222,55,488568,10650,CAMP_0364,0.56,0,2,2,1
+Facebook,South Asia,Conversion,vibrant,11546.96,83,2.13,374,46,467774,9963,CAMP_0365,1.16,0,6,1,4
+Instagram,Latin America,Engagement,elegant,10704.61,16,3.73,227,74,490900,18310,CAMP_0366,0.58,1,3,2,1
+Twitter/X,North America,Brand Awareness,elegant,13591.88,32,1.05,168,57,310260,3257,CAMP_0367,4.17,2,5,0,1
+Twitter/X,Europe,Brand Awareness,luxury,12890.05,63,2.75,111,64,70943,1950,CAMP_0368,6.61,2,2,0,2
+Twitter/X,Europe,Conversion,elegant,7588.01,72,1.78,313,69,243561,4335,CAMP_0369,1.75,2,2,1,1
+Instagram,Middle East,Brand Awareness,elegant,6523.66,79,3.28,130,73,40270,1320,CAMP_0370,4.94,1,4,0,1
+Twitter/X,Middle East,Conversion,luxury,10987.56,57,2.51,344,63,143408,3599,CAMP_0371,3.05,2,4,1,2
+Instagram,Africa,Brand Awareness,elegant,1558.93,61,4.32,125,69,190632,8235,CAMP_0372,0.19,1,0,0,1
+Twitter/X,North America,Conversion,minimalist,14051.45,15,2.42,317,59,499567,12089,CAMP_0373,1.16,2,5,1,3
+Facebook,North America,Engagement,bold,3109.73,24,2.33,219,65,411514,9588,CAMP_0374,0.32,0,5,2,0
+Twitter/X,Africa,Conversion,bold,5929.68,55,1.96,363,59,245162,4805,CAMP_0375,1.23,2,0,1,0
+Facebook,Middle East,Brand Awareness,elegant,2428.35,51,1.86,133,52,72197,1342,CAMP_0376,1.81,0,4,0,1
+Instagram,Latin America,Engagement,elegant,2346.53,35,3.53,253,71,447686,15803,CAMP_0377,0.15,1,3,2,1
+Instagram,South Asia,Brand Awareness,luxury,7213.56,76,3.42,151,79,232365,7946,CAMP_0378,0.91,1,6,0,2
+Twitter/X,Middle East,Brand Awareness,vibrant,7179.07,26,2.03,156,70,154519,3136,CAMP_0379,2.29,2,4,0,4
+Instagram,Africa,Brand Awareness,minimalist,12237.43,60,2.92,142,61,332396,9705,CAMP_0380,1.26,1,0,0,3
+Instagram,Europe,Brand Awareness,minimalist,1963.0,11,3.09,111,62,244063,7541,CAMP_0381,0.26,1,2,0,3
+Twitter/X,Africa,Conversion,minimalist,4048.65,12,1.56,266,62,220902,3446,CAMP_0382,1.17,2,0,1,3
+Facebook,Europe,Conversion,vibrant,11438.59,14,1.82,352,45,83471,1519,CAMP_0383,7.53,0,2,1,4
+Twitter/X,Asia Pacific,Brand Awareness,elegant,5124.1,83,1.95,100,68,415032,8093,CAMP_0384,0.63,2,1,0,1
+Twitter/X,South Asia,Engagement,vibrant,4875.58,25,2.92,238,80,356141,10399,CAMP_0385,0.47,2,6,2,4
+Twitter/X,Europe,Engagement,luxury,4489.73,78,2.7,225,46,320203,8645,CAMP_0386,0.52,2,2,2,2
+Twitter/X,Europe,Conversion,bold,8559.83,13,3.33,329,53,190572,6346,CAMP_0387,1.35,2,2,1,0
+Twitter/X,Africa,Engagement,elegant,5121.65,60,2.61,269,66,224045,5847,CAMP_0388,0.88,2,0,2,1
+Instagram,Asia Pacific,Engagement,vibrant,11439.03,67,4.07,264,83,136336,5548,CAMP_0389,2.06,1,1,2,4
+Instagram,Asia Pacific,Conversion,vibrant,12183.75,14,4.14,378,79,304852,12620,CAMP_0390,0.97,1,1,1,4
+Facebook,Middle East,Conversion,elegant,2444.34,38,1.86,310,49,143691,2672,CAMP_0391,0.91,0,4,1,1
+Instagram,Asia Pacific,Conversion,minimalist,13872.28,54,2.36,293,56,58477,1380,CAMP_0392,10.05,1,1,1,3
+Twitter/X,Africa,Brand Awareness,minimalist,4392.69,84,1.55,118,61,326104,5054,CAMP_0393,0.87,2,0,0,3
+Instagram,South Asia,Brand Awareness,vibrant,12167.43,82,4.21,113,72,389744,16408,CAMP_0394,0.74,1,6,0,4
+Twitter/X,Latin America,Brand Awareness,bold,3528.89,49,2.79,118,62,168957,4713,CAMP_0395,0.75,2,3,0,0
+Instagram,Europe,Brand Awareness,minimalist,11329.75,68,3.26,95,62,489430,15955,CAMP_0396,0.71,1,2,0,3
+Instagram,Africa,Conversion,vibrant,6251.16,37,3.31,360,80,299448,9911,CAMP_0397,0.63,1,0,1,4
+Facebook,South Asia,Engagement,bold,7260.63,90,1.43,250,55,198355,2836,CAMP_0398,2.56,0,6,2,0
+Facebook,Asia Pacific,Engagement,elegant,13300.77,66,2.11,225,59,61699,1301,CAMP_0399,10.22,0,1,2,1
+Twitter/X,Middle East,Engagement,vibrant,5875.22,59,2.57,243,67,33968,872,CAMP_0400,6.74,2,4,2,4
+Twitter/X,South Asia,Brand Awareness,vibrant,735.19,77,2.74,145,66,316200,8663,CAMP_0401,0.08,2,6,0,4
+Twitter/X,Africa,Engagement,luxury,2709.97,49,2.03,218,52,130596,2651,CAMP_0402,1.02,2,0,2,2
+Facebook,Latin America,Brand Awareness,bold,8484.32,50,2.77,113,51,144913,4014,CAMP_0403,2.11,0,3,0,0
+Facebook,Africa,Conversion,bold,7182.02,52,1.78,374,53,98743,1757,CAMP_0404,4.09,0,0,1,0
+Instagram,Africa,Conversion,bold,3168.69,76,4.18,343,76,346492,14483,CAMP_0405,0.22,1,0,1,0
+Instagram,Latin America,Brand Awareness,minimalist,14205.23,13,2.71,157,55,410733,11130,CAMP_0406,1.28,1,3,0,3
+Instagram,Middle East,Brand Awareness,vibrant,1485.54,26,3.96,157,80,14792,585,CAMP_0407,2.54,1,4,0,4
+Instagram,Latin America,Engagement,luxury,1376.53,88,3.45,228,72,359571,12405,CAMP_0408,0.11,1,3,2,2
+Twitter/X,Middle East,Conversion,bold,728.11,75,2.36,376,77,299220,7061,CAMP_0409,0.1,2,4,1,0
+Facebook,North America,Brand Awareness,elegant,10971.79,75,1.67,99,50,160307,2677,CAMP_0410,4.1,0,5,0,1
+Instagram,Latin America,Conversion,bold,12189.43,29,4.71,340,85,66107,3113,CAMP_0411,3.92,1,3,1,0
+Instagram,Latin America,Brand Awareness,vibrant,3283.01,74,4.51,133,81,142339,6419,CAMP_0412,0.51,1,3,0,4
+Facebook,Asia Pacific,Engagement,minimalist,5909.25,58,2.36,192,44,250647,5915,CAMP_0413,1.0,0,1,2,3
+Twitter/X,Europe,Conversion,vibrant,4849.63,17,2.29,352,62,352745,8077,CAMP_0414,0.6,2,2,1,4
+Twitter/X,South Asia,Brand Awareness,minimalist,6376.54,55,1.51,115,48,299774,4526,CAMP_0415,1.41,2,6,0,3
+Facebook,North America,Conversion,minimalist,10691.25,17,1.8,263,48,272069,4897,CAMP_0416,2.18,0,5,1,3
+Facebook,Africa,Engagement,elegant,14671.27,19,2.22,181,53,479128,10636,CAMP_0417,1.38,0,0,2,1
+Twitter/X,North America,Brand Awareness,vibrant,13568.46,79,3.01,120,76,259299,7804,CAMP_0418,1.74,2,5,0,4
+Facebook,North America,Brand Awareness,luxury,13540.02,79,2.15,118,52,355038,7633,CAMP_0419,1.77,0,5,0,2
+Instagram,Europe,Engagement,minimalist,14441.3,82,3.26,201,65,85597,2790,CAMP_0420,5.18,1,2,2,3
+Twitter/X,South Asia,Engagement,minimalist,4839.51,79,1.63,203,44,136076,2218,CAMP_0421,2.18,2,6,2,3
+Twitter/X,South Asia,Engagement,elegant,5310.08,24,2.16,202,53,424448,9168,CAMP_0422,0.58,2,6,2,1
+Twitter/X,Africa,Brand Awareness,elegant,11309.12,51,2.7,148,61,38152,1030,CAMP_0423,10.98,2,0,0,1
+Instagram,Middle East,Brand Awareness,minimalist,5438.59,85,2.6,108,69,322270,8379,CAMP_0424,0.65,1,4,0,3
+Facebook,South Asia,Engagement,minimalist,9694.78,64,1.77,246,48,267217,4729,CAMP_0425,2.05,0,6,2,3
+Instagram,Asia Pacific,Conversion,bold,6761.8,81,3.76,350,76,356382,13399,CAMP_0426,0.5,1,1,1,0
+Facebook,North America,Conversion,luxury,12071.8,16,1.92,355,59,53011,1017,CAMP_0427,11.87,0,5,1,2
+Facebook,Europe,Engagement,vibrant,11225.0,47,1.85,225,47,199110,3683,CAMP_0428,3.05,0,2,2,4
+Instagram,North America,Brand Awareness,luxury,6948.67,41,3.72,110,59,63598,2365,CAMP_0429,2.94,1,5,0,2
+Instagram,North America,Brand Awareness,bold,7008.23,78,3.84,188,75,278666,10700,CAMP_0430,0.65,1,5,0,0
+Facebook,North America,Brand Awareness,minimalist,5631.76,18,2.05,116,45,322960,6620,CAMP_0431,0.85,0,5,0,3
+Twitter/X,South Asia,Engagement,bold,678.94,59,2.78,236,65,213318,5930,CAMP_0432,0.11,2,6,2,0
+Instagram,Africa,Conversion,vibrant,8793.43,28,3.97,359,84,369302,14661,CAMP_0433,0.6,1,0,1,4
+Facebook,Europe,Brand Awareness,luxury,4866.4,70,1.91,117,56,86511,1652,CAMP_0434,2.95,0,2,0,2
+Instagram,Europe,Engagement,luxury,6605.98,68,3.16,232,71,420342,13282,CAMP_0435,0.5,1,2,2,2
+Instagram,Asia Pacific,Engagement,vibrant,10953.04,70,4.27,261,78,321325,13720,CAMP_0436,0.8,1,1,2,4
+Twitter/X,Europe,Engagement,minimalist,2464.6,7,2.32,227,56,217456,5044,CAMP_0437,0.49,2,2,2,3
+Facebook,South Asia,Conversion,bold,12159.11,49,2.07,330,49,240803,4984,CAMP_0438,2.44,0,6,1,0
+Facebook,Middle East,Conversion,elegant,2473.8,48,1.77,313,49,326256,5774,CAMP_0439,0.43,0,4,1,1
+Twitter/X,Europe,Engagement,luxury,3075.74,57,2.33,242,60,177320,4131,CAMP_0440,0.74,2,2,2,2
+Facebook,Africa,Conversion,bold,14532.56,38,2.26,358,43,180858,4087,CAMP_0441,3.56,0,0,1,0
+Facebook,Asia Pacific,Engagement,luxury,2151.37,79,1.6,228,46,114752,1836,CAMP_0442,1.17,0,1,2,2
+Twitter/X,Latin America,Brand Awareness,elegant,890.28,66,2.44,157,65,381388,9305,CAMP_0443,0.1,2,3,0,1
+Instagram,Middle East,Engagement,minimalist,12375.0,59,2.95,229,63,362834,10703,CAMP_0444,1.16,1,4,2,3
+Facebook,Europe,Conversion,luxury,4009.31,26,1.85,329,51,384989,7122,CAMP_0445,0.56,0,2,1,2
+Facebook,South Asia,Engagement,minimalist,7011.47,83,1.55,203,47,261257,4049,CAMP_0446,1.73,0,6,2,3
+Twitter/X,Middle East,Conversion,elegant,13890.69,60,2.21,334,65,295026,6520,CAMP_0447,2.13,2,4,1,1
+Instagram,South Asia,Engagement,elegant,9110.39,17,3.74,191,53,67341,2518,CAMP_0448,3.62,1,6,2,1
+Instagram,Africa,Conversion,luxury,2911.91,85,3.89,314,70,33224,1292,CAMP_0449,2.25,1,0,1,2
+Twitter/X,Africa,Conversion,bold,14518.76,49,1.95,320,66,427454,8335,CAMP_0450,1.74,2,0,1,0
+Facebook,North America,Brand Awareness,minimalist,4251.71,72,2.01,102,30,401566,8071,CAMP_0451,0.53,0,5,0,3
+Twitter/X,Latin America,Conversion,elegant,3704.96,54,1.99,333,49,215066,4279,CAMP_0452,0.87,2,3,1,1
+Facebook,South Asia,Conversion,elegant,10511.34,26,1.96,325,54,190862,3740,CAMP_0453,2.81,0,6,1,1
+Instagram,Middle East,Brand Awareness,luxury,6531.64,17,3.57,113,79,70853,2529,CAMP_0454,2.58,1,4,0,2
+Twitter/X,Europe,Engagement,luxury,5474.47,33,2.25,230,55,283214,6372,CAMP_0455,0.86,2,2,2,2
+Facebook,Asia Pacific,Engagement,minimalist,6853.41,64,1.53,182,45,177200,2711,CAMP_0456,2.53,0,1,2,3
+Instagram,Asia Pacific,Brand Awareness,minimalist,827.48,50,3.72,87,52,349722,13009,CAMP_0457,0.06,1,1,0,3
+Instagram,Africa,Brand Awareness,vibrant,7981.91,77,4.43,140,74,93957,4162,CAMP_0458,1.92,1,0,0,4
+Facebook,Latin America,Engagement,bold,3861.91,58,2.49,229,66,340175,8470,CAMP_0459,0.46,0,3,2,0
+Instagram,Europe,Conversion,bold,6235.94,85,3.95,347,88,472997,18683,CAMP_0460,0.33,1,2,1,0
+Instagram,Middle East,Conversion,bold,6138.12,34,3.44,371,77,117890,4055,CAMP_0461,1.51,1,4,1,0
+Facebook,South Asia,Conversion,minimalist,8871.54,75,2.23,326,46,108020,2408,CAMP_0462,3.68,0,6,1,3
+Facebook,Asia Pacific,Brand Awareness,bold,2152.35,69,1.77,147,51,286674,5074,CAMP_0463,0.42,0,1,0,0
+Twitter/X,Asia Pacific,Conversion,bold,9363.97,82,3.22,359,61,69890,2250,CAMP_0464,4.16,2,1,1,0
+Facebook,Asia Pacific,Engagement,elegant,3001.65,45,1.96,194,45,491654,9636,CAMP_0465,0.31,0,1,2,1
+Twitter/X,Latin America,Brand Awareness,vibrant,5041.19,37,3.0,131,60,170107,5103,CAMP_0466,0.99,2,3,0,4
+Instagram,Europe,Engagement,vibrant,7906.96,60,4.05,276,82,322698,13069,CAMP_0467,0.61,1,2,2,4
+Instagram,Latin America,Engagement,bold,3193.43,88,4.08,226,66,291741,11903,CAMP_0468,0.27,1,3,2,0
+Twitter/X,Africa,Brand Awareness,elegant,2919.55,43,2.81,120,56,83555,2347,CAMP_0469,1.24,2,0,0,1
+Instagram,Asia Pacific,Engagement,elegant,1277.36,52,3.89,232,71,15024,584,CAMP_0470,2.19,1,1,2,1
+Facebook,Europe,Brand Awareness,bold,14475.52,71,2.94,125,61,352396,10360,CAMP_0471,1.4,0,2,0,0
+Facebook,Middle East,Conversion,bold,6526.64,63,2.09,362,64,266219,5563,CAMP_0472,1.17,0,4,1,0
+Instagram,North America,Conversion,minimalist,12040.27,35,3.24,305,68,163139,5285,CAMP_0473,2.28,1,5,1,3
+Instagram,Asia Pacific,Brand Awareness,elegant,4685.72,65,3.21,109,62,306563,9840,CAMP_0474,0.48,1,1,0,1
+Twitter/X,South Asia,Engagement,elegant,7906.69,80,1.42,262,51,69877,992,CAMP_0475,7.97,2,6,2,1
+Facebook,South Asia,Conversion,luxury,8359.63,12,1.89,335,55,408461,7719,CAMP_0476,1.08,0,6,1,2
+Twitter/X,Middle East,Conversion,vibrant,14851.75,20,2.85,389,63,395870,11282,CAMP_0477,1.32,2,4,1,4
+Twitter/X,South Asia,Brand Awareness,luxury,13184.74,11,2.24,138,59,245789,5505,CAMP_0478,2.4,2,6,0,2
+Facebook,Asia Pacific,Brand Awareness,bold,13046.71,22,2.71,148,60,416654,11291,CAMP_0479,1.16,0,1,0,0
+Instagram,Europe,Conversion,elegant,10492.44,85,3.63,349,69,341754,12405,CAMP_0480,0.85,1,2,1,1
+Facebook,Europe,Conversion,vibrant,11880.31,33,1.64,380,54,432282,7089,CAMP_0481,1.68,0,2,1,4
+Instagram,Latin America,Engagement,elegant,4575.73,75,3.15,232,76,98278,3095,CAMP_0482,1.48,1,3,2,1
+Facebook,Africa,Engagement,luxury,8804.67,72,1.99,237,63,481940,9590,CAMP_0483,0.92,0,0,2,2
+Twitter/X,South Asia,Brand Awareness,vibrant,14460.19,59,2.62,196,69,491699,12882,CAMP_0484,1.12,2,6,0,4
+Instagram,Asia Pacific,Conversion,vibrant,10670.68,23,3.14,387,80,140902,4424,CAMP_0485,2.41,1,1,1,4
+Instagram,Africa,Engagement,vibrant,11541.37,57,4.36,265,77,266617,11624,CAMP_0486,0.99,1,0,2,4
+Instagram,Latin America,Conversion,luxury,9603.29,55,3.03,337,66,246973,7483,CAMP_0487,1.28,1,3,1,2
+Instagram,Africa,Brand Awareness,bold,7976.4,42,3.45,150,85,374224,12910,CAMP_0488,0.62,1,0,0,0
+Facebook,Middle East,Engagement,luxury,8938.36,18,2.14,207,55,393218,8414,CAMP_0489,1.06,0,4,2,2
+Facebook,Africa,Conversion,luxury,12826.54,75,2.46,329,52,218517,5375,CAMP_0490,2.39,0,0,1,2
+Instagram,Middle East,Brand Awareness,bold,4393.78,43,3.69,122,79,187080,6903,CAMP_0491,0.64,1,4,0,0
+Twitter/X,Latin America,Brand Awareness,elegant,12860.13,50,2.16,134,52,478794,10341,CAMP_0492,1.24,2,3,0,1
+Twitter/X,South Asia,Brand Awareness,minimalist,1943.83,65,1.82,128,50,18536,337,CAMP_0493,5.77,2,6,0,3
+Instagram,South Asia,Brand Awareness,bold,7119.51,61,4.37,130,76,116073,5072,CAMP_0494,1.4,1,6,0,0
+Twitter/X,Europe,Conversion,luxury,2805.17,42,2.68,313,50,58937,1579,CAMP_0495,1.78,2,2,1,2
+Twitter/X,Asia Pacific,Engagement,minimalist,5891.73,90,1.38,225,49,96782,1335,CAMP_0496,4.41,2,1,2,3
+Instagram,Middle East,Conversion,luxury,11026.83,36,4.54,330,73,235040,10670,CAMP_0497,1.03,1,4,1,2
+Twitter/X,North America,Conversion,minimalist,515.75,68,2.61,335,65,50862,1327,CAMP_0498,0.39,2,5,1,3
+Instagram,Latin America,Brand Awareness,elegant,10359.75,8,3.84,146,72,14227,546,CAMP_0499,18.97,1,3,0,1
